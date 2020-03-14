@@ -13,7 +13,7 @@ To showcase our research work in the field of cryptography, blockchain, PKI, sec
 
 ```
 git clone https://github.com/hypermine-bc/blogs
-git update submodule
+git submodule update
 ```
 
 **Adding a new post** 

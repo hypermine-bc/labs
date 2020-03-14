@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://hypermineresearch.netlify.com/"
 languageCode = "en-us"
 title = "Hypermine Labs"
 theme = "hugo-theme-okayish-blog"
