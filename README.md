@@ -47,3 +47,11 @@ Once pushed, go to repository and give pull request.
 
 
 
+## 
+
+You can add `categories` and `tags` in your post for better visibility and access. You have to add the following in the description of your post.
+
+```
+categories: ["category1", "category2"]
+tags: [tag1, tag2, tag3]
+```
