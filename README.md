@@ -1,13 +1,15 @@
-# blogs
+# Hypermine Labs
 
-To showcase our research work in the field of cryptography, blockchain, PKI, security etc.
+Hypermine labs is part of [Hypermine organization](https://www.hypermine.in/) whose purpose is to bring researchers, students and techies who love deeping dive into latest technologies and innovations, on one platform and hence building a community of like minded people. The idea (but not strict) is to read research papers and convert them into simple readable blogs so that people can understand easily and quickly. At present, our prime focus are in the field of cryptography, blockchain, PKI, security etc. 
 
-## Install hugo server
+## How can I contribute?
+
+### Install hugo server
 
 - [Install hugo](https://gohugo.io/getting-started/installing)
 - Supported version (latest)
 
-## Setup and run locally
+### Setup and run locally
 
 **Clone repo**
 
@@ -46,7 +48,7 @@ Once pushed, go to repository and give pull request.
 
 
 
-## Adding author
+### Adding author
 
 - Create a directory : `mkdir content/author/<YOUR_NAME_ALIAS>`
     - If your name consist of two words, make folder name `word1-word2` format
@@ -66,7 +68,6 @@ title: <Author name>
 
 ```
 ---
----
 ..
 ...
 authors:
@@ -75,10 +76,9 @@ authors:
 ...
 ..
 ---
-
 ```
 
-## Adding tag and category
+### Adding tag and category
 
 You can add `categories` and `tags` in your post for better visibility and access. You have to add the following in the description of your post.
 
@@ -90,4 +90,5 @@ categories: ["category1", "category2"]
 tags: [tag1, tag2, tag3]
 ...
 ..
+---
 ```
