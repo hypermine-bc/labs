@@ -22,12 +22,17 @@ category = "categories"
 [menu]
 
 [[menu.main]]
-identifier = "authors"
-name = "Authors"
-url = "/authors"
+identifier = "tags"
+name = "Tags"
+url = "/tags"
 
 [[menu.main]]
 identifier = "categories"
 name = "Categories"
 url = "/categories"
+
+[[menu.main]]
+identifier = "repo"
+name = "Want to contribute?"
+url = "https://github.com/hypermine-bc/labs"
 
