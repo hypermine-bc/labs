@@ -115,6 +115,30 @@ Minutiae extracted from the fingerprint consist of real and false minutiae. The 
     - Ridge feature-based matching
 
 
+**BOZORTH3**
+
+Minutiae-based matching : performed using BOZORTH3 algorithm
+This algorithm generates a  score based  on pairing  minutiae of  the fingerprints.   BOZORTH3 is an algorithm and utility that matches two minutiae patterns with each other and produces a match score. 
+
+Matching between the fingerprint can be   
+- one-to-one verification 
+- one-to-many identification. 
+
+Bozorth algorithm includes three steps for fingerprint matching
+
+1. Construction of Intra-Fingerprint Minutiae Comparison Tables
+2. Construction of Inter-Fingerprint Compatibility Table
+3. Traverse Inter-Fingerprint Compatibility Table constructed in second step
+
+
+
+![s](bozorth-algo.png)
+
+
+- First minutiae tables are constructed for both probe and
+gallery fingerprint as shown in fig below. In  the table  X,Y represents the  coordinates of each minutiae,  T represents orientation  and  D represents  the  minutiae  quality.  These  tables  containing  all minutiae parameters   are then passed to the minutiae matcher for generating the scores.    S(P1,P2)  represents  scores  obtained  from  genuine  matach  where P1 and P2 are the fingerprints from same person. S(G1, G2) represents scores obtained from imposter  matach  where G1 and G2 are  the fingerprints  from different  persons. As larger the matching score, the fingerprints are more likely from the same person.
+
+
 ## References
 
 - [Biometrics Data Security Techniques for Portable Mobile Devices](https://link.springer.com/article/10.1007/s41403-017-0026-8)
