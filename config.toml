@@ -1,6 +1,4 @@
 baseURL = "http://localhost:1313"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "beautifulhugo"
-
-
+title = "Hypermine Labs"
+theme = [ "indigo", "hugo-theme-okayish-blog" ,"beautifulhugo"]

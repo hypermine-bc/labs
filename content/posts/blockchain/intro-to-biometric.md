@@ -1,4 +1,12 @@
-# A quick introduction to Biometrics
+---
+title: "A quick introduction to Biometrics"
+date: 2020-03-14T12:16:05+05:30
+draft: true
+---
+
+
+
+ 
 
 <!-- toc -->
 - [Introduction](#Introduction)
@@ -64,7 +72,7 @@ The  capture device  returns an  image, usually  with 256 grey-levels, which  co
 
 Basic fingerprint image consists of ridges, valleys, cores, deltas, pores etc as shown in Fig.  The  ridge  endings  and  ridge  bifurication's  are  used  for  comparing  two fingerprints with each other, denoted minutiae based matching.
 
-![s](bifurcation&termination.png)
+![s](/images/intro-to-biometric/bifurcation&termination.png)
 
 Fig. 2.5b illustrates ridge ending and ridge bifurcation which plays a vital role in fingerprint detection known as real minutiae. These ridge ending and ridge  bifurcation  do  not  change  over  time,  therefore  well  suited  for  fingerprint matching. Fingerprint usually consists of 40 to 100 minutiae points. Minutiae location is represented  by a  coordinate location  of the  fingerprint image.  Different systems represents minutiae location differently. 
 
@@ -89,7 +97,7 @@ Techniques used:
 
 Minutiae extraction of the fingerprint is performed by using the algorithm developed by  NIST. 
 
-![as](processingStepsExtraction.png)
+![as](/images/intro-to-biometric/processingStepsExtraction.png)
 
 
 - Image maps are generated from the input fingerprint
@@ -132,7 +140,7 @@ Bozorth algorithm includes three steps for fingerprint matching
 
 
 
-![s](bozorth-algo.png)
+![s](/images/intro-to-biometric/bozorth-algo.png)
 
 
 - First minutiae tables are constructed for both probe and
