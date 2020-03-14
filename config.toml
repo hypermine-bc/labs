@@ -32,7 +32,18 @@ name = "Categories"
 url = "/categories"
 
 [[menu.main]]
+identifier = "authors"
+name = "Authors"
+url = "/authors"
+
+[[menu.main]]
 identifier = "repo"
 name = "Want to contribute?"
 url = "https://github.com/hypermine-bc/labs"
+
+
+[[menu.main]]
+identifier = "hypermine"
+name = "Hypermine.in"
+url = "https://www.hypermine.in/"
 
