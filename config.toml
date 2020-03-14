@@ -1,4 +1,4 @@
 baseURL = "http://localhost:1313"
 languageCode = "en-us"
 title = "Hypermine Labs"
-theme = [ "indigo", "hugo-theme-okayish-blog" ,"beautifulhugo"]
+theme = [ "indigo"]
