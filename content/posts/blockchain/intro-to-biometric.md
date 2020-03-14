@@ -1,7 +1,7 @@
 ---
 title: "A quick introduction to Biometrics"
 date: 2020-03-14T12:16:05+05:30
-draft: true
+draft: false
 ---
 
 
