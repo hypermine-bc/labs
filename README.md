@@ -46,12 +46,48 @@ Once pushed, go to repository and give pull request.
 
 
 
+## Adding author
 
-## 
+- Create a directory : `mkdir content/author/<YOUR_NAME_ALIAS>`
+    - If your name consist of two words, make folder name `word1-word2` format
+- Create a file called `_index.md` inside that directory
+- Modify the following template and paste into `_index.md` file.
+
+```
+---
+title: <Author name>
+---
+
+<Description>
+
+```
+
+- Once added the Author, you can use the author in the `description` section of your post in this way:
+
+```
+---
+---
+..
+...
+authors:
+  - author1
+  - author2
+...
+..
+---
+
+```
+
+## Adding tag and category
 
 You can add `categories` and `tags` in your post for better visibility and access. You have to add the following in the description of your post.
 
 ```
+---
+..
+...
 categories: ["category1", "category2"]
 tags: [tag1, tag2, tag3]
+...
+..
 ```
