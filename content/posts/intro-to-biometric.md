@@ -9,7 +9,9 @@ authors:
 ---
   
 
-In this blog our purpose is to take an in-depth look on how biometrics works. There are multiple types of Biometrics like, Facial characteristics, Fingerprints, Iris pattern etc. and they are fairly complex to undestand. So we will just focus on *Fingerprints*, to make biometric identification process simple and easy to underastand. We will start with definition of Biometric and its types. Then will talk about how fingerprint works, where we will talk about different stages of fingerprint verfication process. Finally, we will conclude the dicussion with how we can make use to this technology in our day to day life to identitify ourself to any service provider without the need of username and password.
+In this blog our purpose is to take an in-depth look on how biometrics works. There are multiple types of Biometrics like, Facial characteristics, Fingerprints, Iris pattern etc. and they are fairly complex to undestand. So we will just focus on *Fingerprints*, to make biometric identification process simple and easy to underastand. We will start with definition of Biometric and its types. Then will talk about how fingerprint works, where we will talk about different stages of fingerprint verfication process. In the final stage of verification process, which is Matching we will only talk about Minutaie based matching using BOZORTH3 algorithm.
+
+Finally, we will conclude the dicussion with how we can make use to this technology in our day to day life to identitify ourself to any service provider without the need of username and password.
 
 ## What is Biometrics
 
@@ -114,8 +116,6 @@ Minutiae extraction of the fingerprint is performed by using the algorithm devel
 binarized fingerprint image.
 - Removal of false minutiae from the fingerprint
 
-![as](/images/intro-to-biometric/Real&FalseMinutiae.png)
-
 ### Post-processing
 
 Minutiae extracted from the fingerprint consist of real and false minutiae. The number of  falsely detected  minutiae depends  upon the  quality of the fingerprint. These false minutiae much be filtered to remove as many false minutiae   as possible without removing real minutiae. The redundant minutiae in the fingerprint are of the form:
@@ -164,7 +164,11 @@ First minutiae tables are constructed for both probe and gallery fingerprint as 
 
 ## Conclusion
 
+The use of authentication builds a sense of trust for the end users, prevents access to a the network or service to intruders (i.e., external attack), and is necessary for holding a person accountable, in case the threats were a result of her actions (i.e., internal attack). Authentication along with the CIA Triad (confidentiality, integrity and availability) is one of the most important aspects of any cyber-physical system.
 
+One of the simplest ways to implement user authentication is to use single-factor authentication. The widely adopted form of single-factor is to an username and password to log on to a website which tells `Something a user knows!`. It provides limited protection against attackers, hence MFA - Multifactor authentication came into picture which tells `Something the user has!`.  Multi-factor authentication using the first two factors definitely improves the quality of verification, but can still be vulnerable to attacks. If a malicious user steals both the password and smart card of a legitimate user, the attacker can gain access to the user’s account.
+
+In this case, Biometrics seems to be a better option to proof user's identity since it talks about `Something the user is!`
 
 ## References
 
