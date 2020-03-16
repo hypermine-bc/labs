@@ -63,14 +63,14 @@ Basic fingerprint image consists of ridges, valleys, cores, deltas, pores etc as
 
 ![s](/images/intro-to-biometric/bifurcation&termination.png)
 
-Fig. 2.5b illustrates ridge ending and ridge bifurcation which plays a vital role in fingerprint detection known as real minutiae. These ridge ending and ridge  bifurcation  do  not  change  over  time,  therefore  well  suited  for  fingerprint matching. Fingerprint usually consists of 40 to 100 minutiae points.  Different systems represents minutiae location differently. 
+The figure illustrates ridge ending and ridge bifurcation which plays a vital role in fingerprint detection known as real minutiae. These ridge ending and ridge  bifurcation  do  not  change  over  time,  therefore  well  suited  for  fingerprint matching. Fingerprint usually consists of 40 to 100 minutiae points.  Different systems represents minutiae location differently. 
 
 
 ## Verification
 
 There are various approaches of automatic fingerprint matching that have been proposed  which  include minutiae  based  approaches, and  image  based  approaches. Minutia  based approaches  are  the most  popular  ones  being included  in  almost  all contemporary fingerprint identification and verification system. 
 
-There are vairous stages of fingerprint verification process like shown in the figure below and can be broadly categoriese into the following:
+These are vairous stages of fingerprint verification process like shown in the figure below and can be broadly categoriese into the following:
 
 - Fingureprint Capturing
 - Pre-Processing
@@ -111,10 +111,11 @@ Minutiae extraction of the fingerprint is performed by using the algorithm devel
 ![as](/images/intro-to-biometric/processingStepsExtraction.png)
 
 
-- Image maps are generated from the input fingerprint
+- Image maps are generated from the input fingerprint. 
 - Image binarization is performed and the minutiae are detected from the 
-binarized fingerprint image.
-- Removal of false minutiae from the fingerprint
+binarized fingerprint image. 
+- Removal of false minutiae from the fingerprint happens. 
+- Finally, output minutiae file is generated after accessing minutia quality.
 
 ### Post-processing
 
@@ -127,11 +128,12 @@ Minutiae extracted from the fingerprint consist of real and false minutiae. The 
 ![as](/images/intro-to-biometric/false&real.png)
 
 Where, 
-a) Fingerprint image containing both false and real minutiae
-b) Fingerprint image containing real minutiae with "o" in green and false minutiae with "o" in red. 
+
+- a) Fingerprint image containing both false and real minutiae
+- b) Fingerprint image containing real minutiae with "o" in green and false minutiae with "o" in red. 
 
 
-#### Matching
+### Matching
 
 Fingerprint matching is a difficult approach due to quality variations of the fingerprint from the  same user  in time.  These  variations are  due to  changing skin  conditions, noise, errors caused during extraction. 
 
@@ -160,7 +162,7 @@ Bozorth algorithm includes three steps for fingerprint matching
 
 ![s](/images/intro-to-biometric/bozorth-algo.png)
 
-First minutiae tables are constructed for both probe and gallery fingerprint as shown in fig below. In the table `X`,`Y` represents the  coordinates of each minutiae,  `T` represents orientation  and  D represents  the  minutiae  quality.  These  tables  containing  all minutiae parameters   are then passed to the minutiae matcher for generating the scores. `S(P1,P2)`  represents  scores  obtained  from  genuine  matach  where `P1` and `P2` are the fingerprints from same person. `S(G1, G2)` represents scores obtained from imposter  matach  where `G1` and `G2` are  the fingerprints  from different  persons. As larger the matching score, the fingerprints are more likely from the same person.
+First minutiae tables are constructed for both probe and gallery fingerprint as shown in fig below. In the table `X`,`Y` represents the  coordinates of each minutiae,  `T` represents orientation`Θ` and  `D` represents  the  minutiae  quality.  These  tables  containing  all minutiae parameters   are then passed to the minutiae matcher for generating the scores. `S(P1,P2)`  represents  scores  obtained  from  *genuine  match*  where `P1` and `P2` are the fingerprints from same person. `S(G1, G2)` represents scores obtained from *imposter  match*  where `G1` and `G2` are  the fingerprints  from different  persons. As larger the matching score, the fingerprints are more likely from the same person.
 
 ## Conclusion
 
