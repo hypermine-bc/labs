@@ -9,13 +9,13 @@ authors:
 ---
   
 
-In this blog our purpose is to take an in-depth look on how biometrics works. There are multiple types of Biometrics like, Facial characteristics, Fingerprints, Iris pattern etc. and they are fairly complex to undestand. So we will just focus on *Fingerprints*, to make biometric identification process simple and easy to underastand. We will start with definition of Biometric and its types. Then will talk about how fingerprint works, where we will talk about different stages of fingerprint verfication process. In the final stage of verification process, which is Matching we will only talk about Minutaie based matching using BOZORTH3 algorithm.
+In this blog, our purpose is to take an in-depth look at how biometrics works. There are multiple types of Biometrics like Facial characteristics, Fingerprints, Iris pattern etc. and they are fairly complex to understand. So we will just focus on *Fingerprints*, to make biometric identification process simple and easy to understand. We will start with the definition of Biometric and its types. Then will talk about how fingerprint works, where we will talk about different stages of fingerprint verification process. In the final stage of the verification process, which is Matching we will only talk about Minutaie based matching using BOZORTH3 algorithm.
 
-Finally, we will conclude the dicussion with how we can make use to this technology in our day to day life to identitify ourself to any service provider without the need of username and password.
+Finally, we will conclude the discussion with how we can make use to this technology in our day to day life to identify ourself to any service provider without the need of username and password.
 
 ## What is Biometrics
 
-Biometrics are biological instruments that can be help to indentify individuals.  It is defined as, the automated methods of identifying or authenticating the identity of a living person based upon one or more intrinsic physical or behavioral traits. The term `biometrics` is derived from the Greek words `bio` (life) and `metrics` (to measure). The major use of Biometric is for identification and access control. It is also used to identify an individual in groups that are under surveillance. 
+Biometrics are biological instruments that can help to identify individuals.  It is defined as, the automated methods of identifying or authenticating the identity of a living person based upon one or more intrinsic physical or behavioural traits. The term `biometrics` is derived from the Greek words `bio` (life) and `metrics` (to measure). The major use of Biometric is for identification and access control. It is also used to identify an individual in groups that are under surveillance. 
 
 ## Types of Biometrics
 
@@ -29,30 +29,30 @@ There are different forms of biometric technology. Some of them are the followin
 - Signature
 - Voice
 
-Researchers claims the shape of an ear, the way someone sits and walks, unique body odors, the veins in one’s hands, and even facial contortions are other unique identifiers. In this blog we will only focus on _Fingerprint_.
+Researchers claim the shape of an ear, the way someone sits and walks, unique body odours, the veins in one’s hands, and even facial contortions are other unique identifiers. In this blog, we will only focus on _Fingerprint_.
 
 
 ## Fingerprint
 
-Human fingertips are fully formed at about seven months of fetus developement and ridge configurations which form distinctive patterns. Good thing about these patterns are, when fully developed, they do not change throughtout the life of an individual. Print  of  these  patterns  is  known  as fingerprints.
+Human fingertips are fully formed at about seven months of fetus development and ridge configurations which form distinctive patterns. The good thing about these patterns is when fully developed, they do not change throughout the life of an individual. Print of  these patterns  is known as fingerprints.
 
 A bit of history here:
 
-- Fingerprinting  first created  by a  British  surgeon called, [Dr. Henry Faulds](https://en.wikipedia.org/wiki/Henry_Faulds). 
-- In late nineteenth century Sir Francis Galton discovered some of the points or characteristics from which fingerprints can be identified. Hence the term “Fingerprint identification” is founded by the Galton points for the science technology.
-- Fingerprint identification began its transition to automation in the late 1960.
-- In 1969, the Federal Bureau  of  Investigation  (FBI)  developed  a  system  to  automate  fingerprint identification. 
-- This  is  first  used  for  manual  process  and  then  it  is  connected  to National Bureau  of Standards  (NBS) known as  National Institute  of Standards  and Technology  (NIST) - an  organization  to  study  the  process  of  automating fingerprint  classification,  feature  extraction  and  matching. 
+- Fingerprinting first created by a  British surgeon called, [Dr. Henry Faulds](https://en.wikipedia.org/wiki/Henry_Faulds). 
+- In late nineteenth century, Sir Francis Galton discovered some of the points or characteristics from which fingerprints can be identified. Hence the term “Fingerprint identification” is founded by the Galton points for the science technology.
+- Fingerprint identification began its transition to automation in late 1960.
+- In 1969, the Federal Bureau of  Investigation  (FBI) developed a  system to automate fingerprint identification. 
+- This is first used for manual process and then it is connected  to National Bureau  of Standards  (NBS) known as  National Institute  of Standards  and Technology  (NIST) - an  organization  to  study  the  process  of  automating fingerprint  classification,  feature  extraction  and  matching. 
 - In  the  early  1990's,  NIST  began  developing  a  system  to  enable  the  electronic exchange  of  fingerprint  records and  images  by law  enforcement  agencies. 
 
 
 ## How does fingerprint works?
 
-In general there are two stages: **enrollment** and **verification** and/or identification. The enrollment phase creates an association between the user and the user’s biometric characteristics. In this phase the user's biometric is captures using fingerprint scanner in the form of an image. The  capture device  returns an  image, usually  with 256 grey-levels, which  consists  of  dark  (ridges)  and  bright  (valleys)  lines. Then certain unique and identifying features extracted from a user’s fingerprint are stored at the biometric database. Verification involves validating if a claimed user is the actual user. Identification is matching an unknown user from a list of potential candidates
+In general there are two stages: **enrollment** and **verification** and/or identification. The enrollment phase creates an association between the user and the user’s biometric characteristics. In this phase, the user's biometric is captures using fingerprint scanner in the form of an image. The  capture device  returns an  image, usually  with 256 grey-levels, which  consists  of  dark  (ridges)  and  bright  (valleys)  lines. Then certain unique and identifying features extracted from a user’s fingerprint are stored at the biometric database. Verification involves validating if a claimed user is the actual user. Identification is matching an unknown user from a list of potential candidates
 
-There are two key challanges to address here:
+There are two key challenges to address here:
 - Scanning fingerprint cards and extracting minutiae (minutiae refers to specific plot points on a fingerprint) from each fingerprint. 
-- Feature  extraction, comparing  and  matching list of  minutiae against  list of  large repositories of fingerprints.
+- Feature extraction, comparing and  matching list of minutiae against  list of  large repositories of fingerprints.
 
 ## Minutiae
 
@@ -72,7 +72,7 @@ There are various approaches of automatic fingerprint matching that have been pr
 
 These are vairous stages of fingerprint verification process like shown in the figure below and can be broadly categoriese into the following:
 
-- Fingureprint Capturing
+- Fingerprint Capturing
 - Pre-Processing
 - Feature Extraction 
 - Post-Processing
@@ -112,7 +112,7 @@ Minutiae extraction of the fingerprint is performed by using the algorithm devel
 
 
 - Image maps are generated from the input fingerprint. 
-- Image binarization is performed and the minutiae are detected from the 
+- Image binarization is performed and the minutiae are detected from the
 binarized fingerprint image. 
 - Removal of false minutiae from the fingerprint happens. 
 - Finally, output minutiae file is generated after accessing minutia quality.
