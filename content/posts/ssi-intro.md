@@ -12,7 +12,7 @@ authors:
 Today, many countries across the globe are implementing digital identities to accelerate the adoption of their digital services.  While going through the research articles on digital identities, one of the questions raised to me is “why is the digital industry looking up for it?”. I would like to put some experiences on this journey, let’s start with a basic question “what is an identity?” take a moment… think… and try to put your thoughts into a clear definition.
 An identity can simply be told as the representation of who you claim to be and who you are. For example, you can be represented by your Name, Age, Profession, Address etc., these claims about you are called identities. As we know, to prove these identities, we use authorised documents like Passport, Aadhaar Card, Office/Student ID card etc., these are known as identity instruments. By now, you may guess how the Digital Identity can be defined; it's just an electronic assertion to yourself. 
 
-## Is it really required? If so why –
+## Is it really required, If so why?
 
 To answer this, I would like to take you back to those days of new [internet](https://www.history.com/news/who-invented-the-internet) developments in the late 1960’s where invention was to serve the purpose of secure and message sharing. As a result of limited and known users there was no layer of identity and authentication in the design of internet framework.
 With the invention of the World Wide Web (WWW), the users made it a common platform for data sciences. Various sectors of society like health and finance have started using the internet for their services. This resulted in a very high [growth]( https://ourworldindata.org/internet) of internet usage across the world. Alongside, there was also impact on security that affected privacy, access and ownership of information online etc. 
@@ -28,11 +28,11 @@ That explains, we have a strong requirement of digital identities. Let us now se
 
 ## Journey of Digital Identity
 
-Digital identity has evolved from the principle of centralized identity ever since the internet was launched. The name centralized itself explains that there exists a single authority who manages the digital identities.So, let's start with the first approach used for digital identity where, both the service provider(SP) and identity provider (IDP) had shared the same space. This means, users can directly register with the service provider as shown in the fig below. This is the traditional system of accessing the service with username and password; A silo approach. 
+Digital identity has evolved from the principle of **centralized identity** ever since the internet was launched. The name centralized itself explains that there exists a single authority who manages the digital identities.So, let's start with the first approach used for digital identity where, both the service provider(SP) and identity provider (IDP) had shared the same space. This means, users can directly register with the service provider as shown in the fig below. This is the traditional system of accessing the service with username and password; A *silo* approach. 
 
 ![whyidentity](/images/ssi-intro/silo.png)
 
-In practice, we can observe that this increases the cost of the application and also the users have to memorize multiple usernames/passwords which is tedious. So, It was transformed with a goal of low cost and better usability into a centralised identity mechanism. Apart from reducing the cost it also helps the service provider in solving the question “whom to trust?” by inducing the central authority called identity providers (IDP). To keep it clear, once the user submits their claims to the IDP, which verifies and issues the digital identity; using which the user can gain access to the required services offered by the service providers as shown in fig below.
+In practice, we can observe that this increases the cost of the application and also the users have to memorize multiple usernames/passwords which is tedious. So, It was transformed with a goal of low cost and better usability into a **centralised identity** mechanism. Apart from reducing the cost it also helps the service provider in solving the question “whom to trust?” by inducing the central authority called identity providers (IDP). To keep it clear, once the user submits their claims to the IDP, which verifies and issues the digital identity; using which the user can gain access to the required services offered by the service providers as shown in fig below.
 
 ![whyidentity](/images/ssi-intro/sso.png)
 
@@ -40,7 +40,7 @@ Microsoft Passport, Google SSO are the best examples of this system. With this p
 
 By learning the downsides of the centralised mechanism, the organisations came up with the hierarchical authority by tweaking the concept of centralized authorities but despite resolving existing concerns, this made the system more complex by balkanising the identities.
 
-Now, with these issues it was more challenging to the SPs to balance the privacy and security concerns. So, they came up with a federated strategy; a second phase of digital identity management system which is known as federated digital identities.The core idea behind this is to allow cross organisational access within the trusted boundaries and maintaining the users privacy in parallel as shown in fig below.
+Now, with these issues it was more challenging to the SPs to balance the privacy and security concerns. So, they came up with a federated strategy; a second phase of digital identity management system which is known as **federated digital identities**.The core idea behind this is to allow cross organisational access within the trusted boundaries and maintaining the users privacy in parallel as shown in fig below.
 
 ![whyidentity](/images/ssi-intro/f-sso.png)
 
@@ -51,7 +51,7 @@ Though it achieved its goal of cross organisational access, the control of ident
 
 Till now we have observed that the root cause of digital identities not being able to provide privacy and security is involvement of the intermediate authorities and the control of the identities!!! So, the organisations have come up with the next level of digital identity management system which aims to give the owner of the identities complete control over it.
 
-The best example of this would be social logins, where you would see login with gmail or facebook while registering with a new application. Before you login to the application using your gmail identity, Google requests your consent before allowing the new application to access your data. Therefore, providing users the right to restrict the exposure of their information. This type of digital identity system is known as [user-centric digital identities]( http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.408.9490&rep=rep1&type=pdf). This is the existing type of digital identity system. 
+The best example of this would be social logins, where you would see login with gmail or facebook while registering with a new application. Before you login to the application using your gmail identity, Google requests your consent before allowing the new application to access your data. Therefore, providing users the right to restrict the exposure of their information. This type of digital identity system is known as **[user-centric digital identities]( http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.408.9490&rep=rep1&type=pdf)**. This is the existing type of digital identity system. 
 Still, the user identity details are stored at the identity provider. which means the risk of security and privacy raised with the centralised identity management system is not addressed. Hence, it suffers from many shortcomings like minimal exposure of credentials, elimination of central authority etc., that need to be fixed before it can be considered truly secure, privacy friendly and usable.
 
 > Somehow, security and privacy has become a distant dream !!☹️
