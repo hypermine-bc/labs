@@ -1,0 +1,5 @@
+---
+title: Likitha Soorea
+---
+
+Likitha is currently doing Ph.D on Network Security at VIT University, Vellore. Her area of interest is cryptography and network security. Her doctoral research is focused on investigating various authentication protocols and currently working on designing a decentralised authentication scheme for remote user applications. She has published research papers in national and International scopus indexed journals. She has pursued M Tech in software Technology from VIT University, Vellore in the year 2014 and B.Tech in Computer Science and Engineering from Amrita Vishwa Vidyapeetham University, Bangalore in the year 2012. She has two years of experience as an Assistant Professor at Sree Vidyaniketan Engineering College, Tirupati and about three years of research experience. She is also involved into writing Hypersign Protocol research paper.
