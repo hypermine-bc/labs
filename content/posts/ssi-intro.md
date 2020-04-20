@@ -15,7 +15,7 @@ An identity can simply be told as the representation of who you claim to be and 
 
 ## Is it really required, If so why?
 
-To answer this, I would like to take you back to those days of new [internet](https://www.history.com/news/who-invented-the-internet) developments in the late 1960’s where the invention was to serve the purpose of secure and message sharing. As a result of limited and known users there was no layer of identity and authentication in the design of internet framework.
+To answer this, we would like to take you back to those days of new [internet](https://www.history.com/news/who-invented-the-internet) developments in the late 1960’s where the invention was to serve the purpose of secure and message sharing. As a result of limited and known users there was no layer of identity and authentication in the design of internet framework.
 With the invention of the World Wide Web (WWW), the users made it a common platform for data sciences. Various sectors of society like health and finance have started using the internet for their services. This resulted in a very high [growth]( https://ourworldindata.org/internet) of internet usage across the world. Alongside, there was also impact on security that affected privacy, access and ownership of information online etc. 
 
 <span style="display:block;text-align:center">![whyidentity](/images/ssi-intro/why-identity.png)</span>
