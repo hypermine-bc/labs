@@ -1,6 +1,6 @@
 # Hypermine Labs
 
-Hypermine labs is part of [Hypermine organization](https://www.hypermine.in/) whose purpose is to bring researchers, students and techies who love deeping dive into latest technologies and innovations, on one platform and hence building a community of like minded people. The idea (but not strict) is to read research papers and convert them into simple readable blogs so that people can understand easily and quickly. At present, our prime focus are in the field of cryptography, blockchain, PKI, security etc. 
+Hypermine labs is part of [Hypermine organization](https://www.hypermine.in/) whose purpose is to bring researchers, students and techies who love deep diving into latest technologies and innovations, on one platform and hence building a community of like minded people. The idea (but not strict) is to read research papers and convert them into simple readable blogs so that people can understand easily and quickly. At present, our prime focus are in the field of cryptography, blockchain, PKI, security, SSI, DID etc. 
 
 ## How can I contribute?
 
