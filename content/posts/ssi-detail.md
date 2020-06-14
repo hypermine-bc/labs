@@ -1,5 +1,5 @@
 ---
-title: "In depth introduction to Self Sovereign Indentity (SSI)"
+title: "In depth introduction to Self Sovereign Identity (SSI)"
 date: 2020-06-14T16:34:31+05:30
 draft: false
 categories: ["authentication", "blockchain"]
@@ -111,7 +111,7 @@ DID infrastructure can be thought of as a global key-value database in which the
 
 #### DID Document
 
-The purpose of the DID document is to describe the public keys, authentication protocols, andservice endpoints necessary to bootstrap cryptographically-verifiable interactions with theidentified entity. The purpose of the DID document is to describe the public keys,authentication protocols, and service endpoints necessary to bootstrapcryptographically-verifiable interactions with the identified entity. The DID documentincludes six components:
+The purpose of the DID document is to describe the public keys,authentication protocols, and service endpoints necessary to bootstrap cryptographically-verifiable interactions with the identified entity. It includes six components:
 
 - DID (for self descrption)
 - Set of public keys (for verification)
