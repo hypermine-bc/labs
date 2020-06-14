@@ -26,7 +26,7 @@ As digital accounts become a major part of our identities, we need a paradigm th
 
 On the other hand the SSI has formed several misconceptions about its functionalities with the complex context of its name. Before knowing anything about the SSI, let us see what it is not;
 
-### Myths of SSI
+## Myths of SSI
 
 - Self-sovereign means self-attested.
 - SSI attempts to reduce the government’s power over an identity owner.
@@ -46,7 +46,7 @@ Recollect the plane boarding scenario to illustrate, where we use a physical ide
 
 Talking about verifying identity digitally, the current way of doing it is very vague. For example, if your bank asks you to send the id cards, you scan them and send it over email or other communication mediums. Even you send the digital copy of id card, the verifier still using manul process to verify the identity. In this case there is one more problem exists, which is, you are not only trusting on your bank to secure your id card but also on the medium (email company in this case) which you used to send it over.
 
-### 10 Principles of SSI
+## 10 Principles of SSI
 
 - **Existence** — Users must have an independent existence.
 - **Control** — Users must control their identities.
@@ -71,7 +71,7 @@ Every use case that inherits the technique of Decentralised Identity (DID) intro
 - The user establishes a secure connection (maybe by scanning QR code) with the verifier using the cryptographic keys. The private key is stored locally in the wallet and the public key is shared with the verifier.
 - Finally, the user can select the verifiable credentials from the wallets as per the requirement and share it with the verifier to prove their identity. 
 
-#### Blockchain fits into infrastructure of SSI
+### Blockchain fits into infrastructure of SSI
 
 A DID can be registered with any type of decentralized network—or even exchanged peer-to-peer. So why would someone choose to register a DID on a blockchain? What do blockchains provide that other types of electronic identifiers and addresses we have been using for decades—telephone numbers, domain names, email addresses—do not?
 
@@ -109,7 +109,7 @@ DID infrastructure can be thought of as a global key-value database in which the
 
 ![ssidifference](/images/ssi-detail/key-value.png)
 
-**DID Document**
+#### DID Document
 
 The purpose of the DID document is to describe the public keys, authentication protocols, andservice endpoints necessary to bootstrap cryptographically-verifiable interactions with theidentified entity. The purpose of the DID document is to describe the public keys,authentication protocols, and service endpoints necessary to bootstrapcryptographically-verifiable interactions with the identified entity. The DID documentincludes six components:
 
