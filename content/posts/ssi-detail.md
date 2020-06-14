@@ -97,7 +97,7 @@ In short it fulfils 4 requirements of SSI system:
 
 **Different than UUIDs and URNs**
 
-DIDs are different than [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier#:~:text=A%20universally%20unique%20identifier%20(UUID,are%20for%20practical%20purposes%20unique.) or [URNs](https://en.wikipedia.org/wiki/Uniform_Resource_Name) in the sense that UUIDs are not globally resolvable and URNs - if resolvable - require a centralised registration authority. In addition neither UUIDs or URNs inherently address - the ability to cryptographically verify ownership of the identifier. DIDs are lifetime portable  digital identity which does not depend on any centralised authority.. Have a look at how at its design:
+DIDs are different than [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier) or [URNs](https://en.wikipedia.org/wiki/Uniform_Resource_Name) in the sense that UUIDs are not globally resolvable and URNs - if resolvable - require a centralised registration authority. In addition neither UUIDs or URNs inherently address - the ability to cryptographically verify ownership of the identifier. DIDs are lifetime portable  digital identity which does not depend on any centralised authority.. Have a look at how at its design:
 
 ![ssidifference](/images/ssi-detail/did-design.png)
 
@@ -119,6 +119,8 @@ The purpose of the DID document is to describe the public keys, authentication p
 - Set of service endpoint (for interaction)
 - Timestamp (for audit histroy)
 - Signature (for integrity)
+
+Example of a DID document:
 
 ![ssidifference](/images/ssi-detail/did-doc.png)
 
