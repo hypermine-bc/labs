@@ -1,6 +1,6 @@
 ---
 title: "Slack integration with HyperSign SSO using SAML 2.0"
-date: 2020-06-15T16:34:31+05:30
+date: 2020-06-15T13:55:36+05:30
 draft: false
 categories: ["authentication", "sso"]
 tags: ["SSO","authentication", "SAML2.0", "Slack", "HyperSign"]
@@ -9,11 +9,9 @@ authors:
 ---
 
 In this blog, we are going to see how we can Integrate Slack(Service Provider) with HyperSign SSO(Password-less Identity provider) using a custom SAML 2.0 configuration.
-
 Before we see what exactly we need to do to integrate Slack with HyperSign SSO, let's see what SAML2.O is all about.
 
-
-**SAML2.0**
+## SAML2.0
 
 
 Security Assertion Markup Language (SAML) is an open standard that allows identity providers (in this case its [HyperSign](https://hypermine.in/hypersign/)) to pass authorization credentials to service providers (like Slack, office 365, salesforce, etc), and with that, using single Identity provider, a user can log in to multiple websites without having to maintain multiple credentials.
@@ -31,7 +29,7 @@ The below diagram nicely summaries all the transactions that happens between Sla
 Let us now see how HyperSign and Slack need to be configured for SAML authentication to work.
 
 
-**HyperSign Configuration**
+## HyperSign Configuration
 
 First you need to login to HyperSign Admin console.
  - Create a new client with the following settings 
@@ -73,7 +71,7 @@ First you need to login to HyperSign Admin console.
  
  ![Image of Yaktocat](/images/slack-hs/installtion.PNG)
 
-**Slack Configuration**
+## Slack Configuration
 
 
 Now that Configuration is all set from the HyperSign side, let's go ahead and configure Slack. To perform the following operations, you need to be a slack admin.
