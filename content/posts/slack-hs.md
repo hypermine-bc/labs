@@ -1,6 +1,6 @@
 ---
 title: "Slack integration with HyperSign SSO using SAML 2.0"
-date: 2020-06-15T16:34:31+05:30
+date: 2020-06-15T14:12:21+05:30
 draft: false
 categories: ["authentication", "sso"]
 tags: ["SSO","authentication", "SAML2.0", "Slack", "HyperSign"]
@@ -50,7 +50,7 @@ First you need to login to HyperSign Admin console.
      - Set _Logout Service POST Binding URL_ to _https://[your-slack-url]/sso/saml/logout_
      - The value of [your-slack-url] is the actual slack URL for your account, for example hypershq.slack.com/
      
-![Image of Yaktocat](/images/slack-hs/HyperSign.PNG)
+  ![Image of Yaktocat](/images/slack-hs/HyperSign.PNG)
 
 
  - Mapper configuration -Mappers are nothing but SAML Assertion. Its the XML document that the identity provider sends to the service provider that contains information like authentication, attribute(email, first name, etc.), and authorization (roles, etc.) decision. For Slack to work with HyperSign, we need to configure mapper as follows.
@@ -69,7 +69,7 @@ First you need to login to HyperSign Admin console.
  - Next, go to the installation tab and select the Format Option _SAML Metadata IDPSSODescriptor_. This XML document has all the information that you need in the next step.
  
  
- ![Image of Yaktocat](/images/slack-hs/installtion.PNG)
+   ![Image of Yaktocat](/images/slack-hs/installtion.PNG)
 
 ## Slack Configuration
 
