@@ -1,6 +1,6 @@
 ---
 title: "Slack integration with HyperSign SSO using SAML 2.0"
-date: 2020-06-15T13:55:36+05:30
+date: 2020-06-15T16:34:31+05:30
 draft: false
 categories: ["authentication", "sso"]
 tags: ["SSO","authentication", "SAML2.0", "Slack", "HyperSign"]
@@ -35,19 +35,19 @@ First you need to login to HyperSign Admin console.
  - Create a new client with the following settings 
      - Set client ID to [https://slack.com](https://slack.com)
      - Set the Client Protocol to SAML
-     - Set �Include AuthnStatement� to ON
-     - Set �Sign Documents� to ON
-     - Set �Sign Assertions� to ON
-     - Set �Signature Algorithm� to �RSA_SHA1�
-     - Set �SAML Signature Key Name� to �NONE�
-     - Set �Force POST Binding� to ON
-     - Set �Force Name ID Format� to ON
-     - Set �Name ID Format� to persistent
-     - Set �Valid Redirect UIs� to 2 values
+     - Set __Include AuthnStatement__ to ON
+     - Set __Sign Documents__ to ON
+     - Set __Sign Assertions__ to ON
+     - Set __Signature Algorithm__ to __RSA_SHA1__
+     - Set __SAML Signature Key Name__ to __NONE__
+     - Set __Force POST Binding__ to ON
+     - Set __Force Name ID Format__ to ON
+     - Set __Name ID Format__ to persistent
+     - Set __Valid Redirect UIs__ to 2 values
          - https://[your-slack-url]/
          - https://[your-slack-url]/*
-     - Set �Assertion Consumer Service POST Binding URL� to �https://[your-slack-url]/sso/saml� -This is the Slack end point where all the responses will be sent using POST method.
-     - Set �Logout Service POST Binding URL� to �https://[your-slack-url]/sso/saml/logout�
+     - Set __Assertion Consumer Service POST Binding URL__ to __https://[your-slack-url]/sso/saml__ -This is the Slack end point where all the responses will be sent using POST method.
+     - Set __Logout Service POST Binding URL__ to __https://[your-slack-url]/sso/saml/logout__
      - The value of [your-slack-url] is the actual slack URL for your account, for example hypershq.slack.com/
      
 ![Image of Yaktocat](/images/slack-hs/HyperSign.PNG)
@@ -55,9 +55,9 @@ First you need to login to HyperSign Admin console.
 
  - Mapper configuration -Mappers are nothing but SAML Assertion. Its the XML document that the identity provider sends to the service provider that contains information like authentication, attribute(email, first name, etc.), and authorization (roles, etc.) decision. For Slack to work with HyperSign, we need to configure mapper as follows.
  
-     - Click the �Add Builtin� button .
-     - Select �X500 email�
-     - Set �SAML Attribute Name� to �User.Email�
+     - Click the __Add Builtin__ button .
+     - Select __X500 email__
+     - Set __SAML Attribute Name__ to __User.Email__
      
    ![Image of Yaktocat](/images/slack-hs/Email_attribute.PNG)
    
