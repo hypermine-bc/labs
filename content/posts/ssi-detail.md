@@ -152,7 +152,7 @@ Similar to other authentication methods, DID Auth relies on a challenge-response
 
 Most credentials are physical. They are easy to forge, impersonate the true owner, can be lost or damaged., expensive to create and issue, can not scale, can not be easily verified and disclose more information than needed. 
 
-Normally, every credential (be it voter id, driver’s license etc) can be verified  and hence be called verified credential but the this term is specifically used to represent digital credentials which represent all of the same information that a physical credential represents but with the addition of technology such as digital signatures, makes verifiable credentials more tamper-evident and more trustworthy than their physical counterparts. Formally, it can be defined as, tamper-evident credential that has authorship that can be cryptographically verified. The verifiable credential ecosystem can be understood from the following diagram:
+Usually, any credentials (e.g. voter I d, driver’s license etc.) can be verified and hence, be called as verifiable credentials. Digital credentials hold the same information as in physical credentials but represented digitally. So, the term verifiable credentials here represents the digital credentials in combination with technologies like digital signatures. Formally, It can be defined as a tamper-evident credential whose authorship can be cryptographically verified. The verifiable credential ecosystem can be understood from the following diagram:
 
 ![ssidifference](/images/ssi-detail/VC.png)
 
