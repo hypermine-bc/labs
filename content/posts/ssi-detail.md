@@ -189,7 +189,7 @@ The SSI space is very new and still evolving. If you want to learn more about SS
 - https://livebook.manning.com/book/self-sovereign-identity/chapter-3/v-4/33
 
 
-<!-- Please donate to ak_Wc1r3YGs4WxCjQ72KfxcKnWbJru3Regu2wPNs6auUZYyiZVT6 if you feel its worth it. Thank you !! :-) -->
+<!-- Please donate to ak_Wc1r3YGs4WxCjQ72KfxcKnWbJru3Regu2wPNs6auUZYyiZVT6 if you feel its worth it. Thank you !! -->
 
 
 
