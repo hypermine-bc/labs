@@ -83,7 +83,7 @@ The Public key infrastructure (PKI) used in modern browsers relies on a small nu
 
 If a CA makes a mistake on a digital certificate, or if their service goes down or has a security lapse, or if they raise their prices, or if they go out of business—the [whole system falls apart](www.slate.com/articles/technology/future_tense/2016/12/how_the_2011_hack_of_diginotar_changed_the_internet_s_infrastructure.html).
 
-Blockchains are highly tamper-resistant transactional distributed databases that no single party controls. This means they can provide an authoritative source of data that many different peers can trust without any single peer being in control. From the standpoint of SSI—and specifically for registering and resolving the DIDs and public keys that enable digital wallets and digital agents to securely communicate and exchange verifiable credentials, Blockchain is most helpful since it solves a problem that has never had a solution in the history of cryptography: they are globally distributed databases that;
+Blockchains being highly tamper-resistant transactional distributed databases that no single party controls. This means they can provide an authoritative source of data that many different peers can trust without any single peer being in control. From the standpoint of SSI—and specifically for registering and resolving the DIDs and public keys that enable digital wallets and digital agents to securely communicate and exchange verifiable credentials, Blockchain is most helpful since it solves a problem that has never had a solution in the history of cryptography: they are globally distributed databases that;
 
 > Can serve as a source of truth for public keys (of Issuers) without being subject to single points of failure or attack. 
 
