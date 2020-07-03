@@ -164,7 +164,7 @@ Most credentials are physical. They are easy to forge, impersonate the true owne
 
 Usually, any credentials (e.g. voter I d, driver’s license etc.) can be verified and hence, be called as verifiable credentials. Digital credentials hold the same information as in physical credentials but represented digitally. So, the term verifiable credentials here represents the digital credentials in combination with technologies like digital signatures. Formally, It can be defined as a tamper-evident credential whose authorship can be cryptographically verified. The verifiable credential ecosystem can be understood from the following diagram:
 
-![ssidifference](/images/ssi-detail/VC.png)
+![ssidifference](/images/ssi-detail/ssi.png)
 
 
 ## SSI Stack
