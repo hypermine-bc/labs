@@ -63,7 +63,7 @@ Talking about verifying identity digitally, the current way of doing it is very 
 
 SSI consists of three different actors involved in its framework as shown in the figure below. The Holder or the user is the owner of the credentials, the issuer is the issuing authority of [verifiable credentials](https://www.w3.org/TR/vc-data-model/#dfn-verifiable-credentials) and the verifier is the one who verifies the credentials. The figure below explains the trust relation between the actors.
 
-![ssidifference](/images/ssi-detail/triangle.png)
+![ssidifference](/images/ssi-detail/Verifiable-credential.png)
 
 Every use case that inherits the technique of Decentralised Identity (DID) introduced by SSI may have to follow the three simple steps given below.
 
@@ -75,9 +75,19 @@ Every use case that inherits the technique of Decentralised Identity (DID) intro
 
 A DID can be registered with any type of decentralized network—or even exchanged peer-to-peer. So why would someone choose to register a DID on a blockchain? What do blockchains provide that other types of electronic identifiers and addresses we have been using for decades—telephone numbers, domain names, email addresses—do not?
 
-Blockchains are highly tamper-resistant transactional distributed databases that no single party controls. This means they can provide an authoritative source of data that many different peers can trust without any single peer being in control. Blockchains intentionally trade off many other standard features of distributed transactional databases—performance, efficiency, scalability, searchability, ease of administration—to solve one really hard problem—trusted data that does not need to rely on a central trusted authority. From the standpoint of SSI—and specifically for registering and resolving the DIDs and public keys that enable digital wallets and digital agents to securely communicate and exchange verifiable credentials—the differences between the various types of blockchains (permissionless, permissioned, hybrid, etc.) do not matter much. A DID method can be written to support pretty much any modern blockchain or other decentralized network.
+Let’s understand the problem with an example of TLS (or HTTPS); 
 
-It solves a problem that has never had a solution in the history of cryptography: they are globally distributed databases that can serve as a source of truth for public keys without being subject to single points of failure or attack. This is what provides the strong foundation needed for the ubiquitous adoption of the verifiable digital credentials at the heart of SSI.
+The Public key infrastructure (PKI) used in modern browsers relies on a small number (a few hundred) of certificate authorities (CAs) to be the roots of trust. The number is small so that your browser can easily manage them. The owner of a private key, such as a website, gives their public key to a CA who signs it with their own private key and issues a public key certificate. That’s what your browser is checking for each time you connect to a website that offers an encrypted HTTPS connection. You can see the flow in the following diagram; This is how you know you’re dealing with the site you think you are.
+
+![ssidifference](/images/ssi-detail/Verifiable-credential-example.png)
+
+If a CA makes a mistake on a digital certificate, or if their service goes down or has a security lapse, or if they raise their prices, or if they go out of business—the [whole system falls apart](www.slate.com/articles/technology/future_tense/2016/12/how_the_2011_hack_of_diginotar_changed_the_internet_s_infrastructure.html).
+
+Blockchains are highly tamper-resistant transactional distributed databases that no single party controls. This means they can provide an authoritative source of data that many different peers can trust without any single peer being in control. From the standpoint of SSI—and specifically for registering and resolving the DIDs and public keys that enable digital wallets and digital agents to securely communicate and exchange verifiable credentials, Blockchain is most helpful since it solves a problem that has never had a solution in the history of cryptography: they are globally distributed databases that;
+
+> Can serve as a source of truth for public keys (of Issuers) without being subject to single points of failure or attack. 
+
+This is what provides the strong foundation needed for the ubiquitous adoption of the verifiable digital credentials at the heart of SSI.
 
 ## Basic building blocks of SSI
 
