@@ -121,7 +121,7 @@ DID infrastructure can be thought of as a global key-value database in which the
 
 #### DID Document
 
-The purpose of the DID document is to describe the public keys,authentication protocols, and service endpoints necessary to bootstrap cryptographically-verifiable interactions with the identified entity. It includes six components:
+The purpose of the DID document is to describe the public keys, authentication protocols, and service endpoints necessary to bootstrap cryptographically-verifiable interactions with the identified entity. It includes six components:
 
 - DID (for self descrption)
 - Set of public keys (for verification)
@@ -129,6 +129,8 @@ The purpose of the DID document is to describe the public keys,authentication pr
 - Set of service endpoint (for interaction)
 - Timestamp (for audit histroy)
 - Signature (for integrity)
+
+Note: The service endpoints, enable further interactions with the DID controller. For instance, a DID can reference the location of associated personal data, which a requester would need to ask the DID controller for permission to access.
 
 Example of a DID document:
 
