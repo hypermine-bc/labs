@@ -9,8 +9,7 @@ authors:
 ---
 
 
-
-# Linked Data Signature
+Before we understand what is linked data signature, let us understand what is linked data. 
 
 ## Linked Data 
 
