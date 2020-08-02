@@ -1,12 +1,13 @@
 ---
-title: "Demonstrating linked data signature in java script"
-date: 2020-08-03T12:16:05+05:30
+title: "Intro Linked Data Signature"
+date: 2020-08-03T02:19:09+05:30
 draft: false
 categories: ["cryptography"]
 tags: [json-ld, "linked-data"]
 authors:
   - vishwas
 ---
+
 
 
 # Linked Data Signature
