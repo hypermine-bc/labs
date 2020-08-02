@@ -1,6 +1,6 @@
 ---
 title: "Demonstrating linked data signature in java script"
-date: 2020-03-14T12:16:05+05:30
+date: 2020-08-03T12:16:05+05:30
 draft: false
 categories: ["authentication, "cryptography"]
 tags: [json-ld, "linked-data"]
