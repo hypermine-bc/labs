@@ -39,7 +39,7 @@ In this blog, we will explore why Blockchain is an important tool to build prope
 
 The first thing to notice in this case study is, this system follows **Issuance-Verification paradigm**. Meaning, the use case essentially has three actors; an issuer (the airline company) who issues a ticket (we can also be called credential), a holder or subject (the passenger) who requests the credential and holds it and a verifier (the security personnel or the flight attendant) who verifies the credential. Take a look at the figure below.
 
-![s](/images/need-of-blockchain-ssi/issue-verification.png)
+![s](/images/need-of-blockchain-ssi/issue-verification.png.png)
 
 Also, note that the verification system (security for example) does not belong to the same system where the credential was issued. For example, the security personnel does not belong to any airline company but belong on third party org, say government. Because of that, the problem is, either the verifier needs **issuers to be online** at the time of verification or the verifier has to verify the credential **manually** as there is no other option left for him. 
 
