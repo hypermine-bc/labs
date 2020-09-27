@@ -99,6 +99,7 @@ Now instead of a centralised database, if we use Blockchain which can act as a g
 * **Trust**: We switched the trust from one centralised entity to a decentralised network of computers which is not owned by one single party. Hence the verifier can verify credentials without having to trust on a single entity.
 * **Data persistence**: *Immutability* is an inherent property of blockchain, that makes us rely on the data which is entered on the chain and give us the confidence of tamper-proofed data.
 * **Liveliness**: Blockchain is a network of computers run by so many people across the globe and bringing down the whole network is near to impossible even if we take worst-case scenario of a natural disaster. 
+* **Independancy**: Since the blockchian becomes the common infra to hold publickeys, the verifier can fetch the issuer's key from the chain and can verify the credential on his own without making request to the issuance system.
 
 
 Now, we can see our final model look something like this: 
