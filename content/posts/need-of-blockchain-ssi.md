@@ -59,7 +59,7 @@ For flight attendant, this problem is not there since she belongs to the same sy
 
 #### Model 1 - Digital Signature
 
-We all know about how digital signature and how a digital signature verification works. 
+We all know about how [digital signature](https://en.wikipedia.org/wiki/Digital_signature) works. 
 
 * Alice wants to send message to Bob, she will send the message, `m`, along with the digital signature, `sig` which he produced using her private key (`A_sk`) in a digital signature algorithm. 
 * If Bob (the verifier) has to verify whether the message is coming from Alice (the sender) then he can verify the signature `sig` independently using the same digital signature algorithm which Alice had used to sign the message, without making a call to Alice as long as he has Alice's publickey (`A_pk`).  
