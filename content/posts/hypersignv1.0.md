@@ -169,16 +169,16 @@ Once he satisfies with information, he can click on the `Verify` button to verif
 
 Here is full demo:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=wSaYTGkeg94)
+[![IMAGE ALT TEXT HERE](/images/hypersignv1.0/thumbnail.png)](https://www.youtube.com/watch?v=wSaYTGkeg94)
 
 
 ## Links
 
 - [Hypersign Studio](https://ssi.hypermine.in/studio/)
 - [Hypersign Identity Explorer](https://ssi.hypermine.in/explorer)
-- [Github Repo](https://github.com/hypersign-protocol)
-- Our [telegram](https://t.me/joinchat/F9rRLg9yiWqcmsjyEQeUpw) channel (developers) 
-- For a more technical blog, please visit our [Lab's website](https://hypermineresearch.netlify.app/)
+- [Github Repository](https://github.com/hypersign-protocol)
+- If you are a developer, join our [telegram](https://t.me/joinchat/F9rRLg9yiWqcmsjyEQeUpw) group.
+- For a more technical blogs on identity and SSI, please visit our [Lab's website](https://hypermineresearch.netlify.app/)
 - Follow us on [twitter](https://twitter.com/hypersignchain) to get the latest updates of this project.
 - For business-related queries, kindly mail us at `connect@hypermine.in`
 - [Hypersign Website](https://hypermine.in/hypersign/)
