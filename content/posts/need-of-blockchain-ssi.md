@@ -8,7 +8,7 @@ authors:
   - vishwas
 ---
 
-This blog can be considered as a follow-up blog (but not necessarily) on a series of blogs on digital identity. 
+This blog can be considered as a follow-up blog (but not necessarily) of a series of blogs on digital identity. 
 
 * [Digital Identity; Past, Present and Future](https://hypermineresearch.netlify.app/posts/ssi-intro/): Where we talked about how digital identity evolved over a period of time and where it is heading to - the SSI.
 * [In depth introduction to Self Sovereign Identity (SSI)](https://hypermineresearch.netlify.app/posts/ssi-detail/): We took a deep dive into some of the core components of SSI to understand its terminologies and overall architecture. 
