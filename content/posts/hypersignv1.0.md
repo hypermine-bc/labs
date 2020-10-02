@@ -165,14 +165,22 @@ Once he satisfies with information, he can click on the `Verify` button to verif
 ![s](/images/hypersignv1.0/studio-verify-vp.png)
 
 
+## Final words
+
+As you can see how credential can be easily generted on Hypersign studio and can be verifed by the verfier without having to make call to the issuer. The complexities of files are there because we do not have mobile wallet, once that is there, user would not have to manage those files manually, data can be transmitted between parties using DID communitcation protocol very securely.
+
+So this was the demo of SSI, but *did you notice that how you have actually used verifiable credential to be able to authenticate your self in the Hypersign studio portal?* That is the live example of using SSI in your project. What problem did it solve and how it is much better than traditional username password or social login mechanism, I will leave that for our next blog.
+
+I hope I did justice to your time. Feedbacks and criticism are most welcome! :)
+
 ## Live demo
 
-Here is full demo:
+Watch the live demo on YouTube;
 
 [![IMAGE ALT TEXT HERE](/images/hypersignv1.0/thumbnail.png)](https://www.youtube.com/watch?v=wSaYTGkeg94)
 
 
-## Links
+## Important Links
 
 - [Hypersign Studio](https://ssi.hypermine.in/studio/)
 - [Hypersign Identity Explorer](https://ssi.hypermine.in/explorer)
