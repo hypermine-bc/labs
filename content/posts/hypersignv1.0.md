@@ -47,6 +47,8 @@ In this case study we have the following actor:
 * Vishwas: The passenger - the holder/subject
 * David: The security personal - the verifier.
 
+> Note, in this case study, security personal does not belong to the same system where the ticket was issued. So the only way left for him to verify the ticket is - *manually* - which can lead to major security breach.
+
 ### Get DID using Hypersign Indentity Explorer
 
 As we discussed earlier, in SSI ecosystem, all actors can issue DIDs to themselves. To create a DID go to [Hypersign Identity explorer](https://ssi.hypermine.in/explorer) and click on `Get DID` button in the navbar. 
@@ -80,19 +82,17 @@ The DID doc, contains your DID, public key and other public information includin
 
 ### Get onboard on Hypersign Studio
 
-Now that we have DID, let us go to [Hypersign Studio](https://ssi.hypermine.in/studio/) to play with verifiable credentials. To issue credentials, let for register and login into this portal. 
+Now that we have DID, let us go to [Hypersign Studio](https://ssi.hypermine.in/studio/) to play with verifiable credentials. To issue credentials, let's first register and login into this Hypersign Studio  web portal. 
 
 #### Register
 
-Go to [Hypersign Studio](https://ssi.hypermine.in/studio/) and click on the `signup` button to register. 
-
-Fill in your details and click on `SignUp` button. Make sure you fill the did as well which you had generated in the previous step.
+Go to [Hypersign Studio](https://ssi.hypermine.in/studio/) and click on the `signup` link to register. Fill in your details and click on `SignUp` button. Make sure you fill the DID as well which you had generated in the previous step.
 
 ![s](/images/hypersignv1.0/studio-reg.png)
 
 On clicking on `SignUp` button, you will receive an email and will be asked to click on a link to download `verifiable credential` file. 
 
-### Login
+#### Login
 
 Now you have two files, `keys.json` and `vc_fe4..925.json` (don't worry about the complexities like why we are using files to login and all, it will be clear in the end). Use both of these files to login into the studio app.
 
@@ -106,7 +106,7 @@ On the successful login, you will enter into the dashboard, where you can see so
 
 ### Create schema
 
-Now that you are into the app, you can plan to issue flight ticket to a passenger (let's say it is you only). Now to issue a ticket, the ticket must have a `schema`. The `Schema` is nothing but `format` (defined by aviation governing body, say [DGCA](https://dgca.gov.in/digigov-portal/) in India) which can decide what format all airline companies should follow to issue airline tickets in India. The standard format is important for systems to understand each other and work together. 
+Now that you are into the app, you can plan to issue flight ticket to a passenger (to you in this case). To issue a ticket, the ticket must have a `schema`. The `Schema` is nothing but `format` (defined by aviation governing body, say [DGCA](https://dgca.gov.in/digigov-portal/) in India) which can decide what format all airline companies should follow to issue airline tickets in India. The standard format is important for different systems to understand each other and work together. 
 
 So let us assume that airline company itself is that aviation body for sake of simplicity. Click on `Schema` button in the nav to go to the schema page. A schema must have a name and required attributes (basically what fields) - fill those details and click on `Create` button. We should also note that when the schema is created, it can be public so that other issuer can use that schema to issue verifiable credentials.
 
