@@ -1,5 +1,5 @@
 ---
-title: "Hypersign v1.0 released; A visual representation of SSI!"
+title: "Hypersign v1.0 is released; A visual representation of SSI!"
 date: 2020-10-02T09:13:43+05:30
 draft: false
 categories: ["ssi", "blockchain", "hypersign"]
@@ -57,7 +57,7 @@ Click on `Register` button after filling your name. Remember, this information i
 
 ![s](/images/hypersignv1.0/expl-didnew.png)
 
-On clicking on `Register` button, user's private-public keys generated (`keys.json` file) and DID gets created on our dummy network. You can download your keys and store it on your computer for later use. *The step of creating DID will not be faciliated from the Identity explorer but from Hypersign mobile wallet - which is currently under development*. 
+On clicking on `Register` button, user's private-public keys generated (`keys.json` file) and DID gets created on our dummy network. You can download your keys and store it on your computer for later use. *The step of creating DID will not be facilitated from the Identity explorer but from Hypersign mobile wallet - which is currently under development*. 
 
 The `keys.json` file contains your `privateKey` and `publicKey`.  Let's take a look:
 
