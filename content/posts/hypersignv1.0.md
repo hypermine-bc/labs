@@ -18,7 +18,7 @@ Disclaimer
 
 Self-sovereign identity intent to give control of user data back to the user by leveraging the use of technologies like Public Key Infrastructure (PKI) and Blockchain. In SSI ecosystem, each party (issuer, holder, verifier) can create their own identifier, called Decentralised Identifier (DID), by publishing their public key on the public blockchain network and can verify each other independently. 
 
-One of the problem which SSI solves is, *It gives ability to all participants to authenticate each other and to the verifier to verify the data independentily - without making a call to the issuer. The issuer does not have to be online at the time of verification!*
+One of the problem which SSI solves is, *It gives ability to all participants to authenticate each other and to the verifier to verify the data independently - without making a call to the issuer. The issuer does not have to be online at the time of verification!*
 
 To understand the concept of SSI in-detail, I encourage you to read [this](https://hypermineresearch.netlify.app/posts/ssi-detail/) blog before proceeding. To understand why Blockchain plays a major role in SSI infrastructure, please read [this](https://hypermineresearch.netlify.app/posts/need-of-blockchain-ssi/) blog. 
 
