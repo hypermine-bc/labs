@@ -1,7 +1,11 @@
 ---
 title: "Summary of 'Digital Identity – Foundation for a New Economy' webnair organised by Citi bank @ 10/22/2020"
 date: 2020-10-23T07:58:41+05:30
-draft: true
+draft: false
+categories: ["ssi", "blockchain", "hypersign"]
+tags: ["SSI", "digital identity", "DID", "citi", "hypersign"]
+authors:
+  - vishwas
 ---
 
 # Introduction
