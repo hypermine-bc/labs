@@ -14,11 +14,11 @@ Yesterday, I got an opportunity to attend a webinar titles, __Digital Identity â
  
 ## Panellist
 
-**Host** | **Panellist 1** | **Panellist 2** | **Panellist 3** | **Panellist 4**
---- | :---: | :---: | :---: | :---
-![ss](/images/digital-identity-webnair-citi/Gary.png) | ![ss](/images/digital-identity-webnair-citi/Arvind.png) | ![ss](/images/digital-identity-webnair-citi/Keit.png) | ![ss](/images/digital-identity-webnair-citi/David.png) | Not Found
-[Gary Schneider](https://www.linkedin.com/in/gary-schneider-100b316/) | [Arvind Gupta](https://www.linkedin.com/in/argupta26/) | [Keit Pentus-Rosimannus](https://www.linkedin.com/in/keit-pentus-rosimannus-862610198/) | [David Birch](https://www.linkedin.com/in/dgwbirch/) | Mr X
-Managing Director at Citi | Data & Digital Economy, Platform Policy, New Media & Startups. DigitalIndia, WEF, OECD | Estonian MP; focus on Climate/New Technologies/Cyber | Author, board-level advisor and commentator on digital financial services | From Sweden
+| **Host** | **Panellist 1** | **Panellist 2** | **Panellist 3** | **Panellist 4** |
+| :-: | :-: | :-: | :-: | :-: |
+![ss](/images/digital-identity-webnair-citi/Gary.png) | ![ss](/images/digital-identity-webnair-citi/Arvind.png) | ![ss](/images/digital-identity-webnair-citi/Keit.png) | ![ss](/images/digital-identity-webnair-citi/David.png) | Not Found |
+[Gary Schneider](https://www.linkedin.com/in/gary-schneider-100b316/) | [Arvind Gupta](https://www.linkedin.com/in/argupta26/) | [Keit Pentus-Rosimannus](https://www.linkedin.com/in/keit-pentus-rosimannus-862610198/) | [David Birch](https://www.linkedin.com/in/dgwbirch/) | Mr X |
+Managing Director at Citi | Data & Digital Economy, Platform Policy, New Media & Startups. DigitalIndia, WEF, OECD | Estonian MP; focus on Climate/New Technologies/Cyber | Author, board-level advisor and commentator on digital financial services | From Sweden |
 
 
 Note: I forgot the name of 4th panellist, all I can remember is, he was from Sweden, so I just named him Mr. X
