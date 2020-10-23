@@ -1,5 +1,5 @@
 ---
-title: "Summary of 'Digital Identity – Foundation for a New Economy' webnair organised by Citi bank @ 10/22/2020"
+title: "Summary of 'Digital Identity – Foundation for a New Economy' webinar organised by Citi bank @ 10/22/2020"
 date: 2020-10-23T07:58:41+05:30
 draft: false
 categories: ["ssi", "blockchain", "hypersign"]
