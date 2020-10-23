@@ -12,30 +12,13 @@ authors:
 
 Yesterday, I got an opportunity to attend a webinar titles, __Digital Identity – Foundation for a New Economy__. I was super excited about this webinar since my area of interest is decentralised identity. I found the webinar very insightful and thought that it would be good if I can summaries the session in a blog post so that others (who could not attend) could get benefit of it. 
  
-## Panelist
+## Panellist
 
-
-
-- **Host**: 
-
-![ss](/images/digital-identity-webnair-citi/Gary.png) | [Gary Schneider](https://www.linkedin.com/in/gary-schneider-100b316/)
-                                                      | Managing Director at Citi
-
-- **Panelist 1**:
-    - [Arvind Gupta](https://www.linkedin.com/in/argupta26/)
-    - Data & Digital Economy, Platform Policy, New Media & Startups. DigitalIndia, WEF, OECD
-
-- **Panelist 2**:
-    - [Keit Pentus-Rosimannus](https://www.linkedin.com/in/keit-pentus-rosimannus-862610198/)
-    - Estonian MP; focus on Climate/New Technologies/Cyber
-
-- **Panelist 3**:
-    - [David Birch](https://www.linkedin.com/in/keit-pentus-rosimannus-862610198/)
-    - Author, board-level advisor and commentator on digital financial services, a recognised international thought leader, global keynote speaker and @Forbes contributor.
-
-- **Panelist 4**:
-    - Forgot about him, I will call him Mr. X. 
-    - Mr X is from Sweden
+Host    |   Panellist   |   Panellist 2   |   Panellist 3   |   Panellist 4 
+--- |   --- |   --- |   ---
+![ss](/images/digital-identity-webnair-citi/Gary.png)   |   ![ss](/images/digital-identity-webnair-citi/Arvind.png) |   ![ss](/images/digital-identity-webnair-citi/Kiet.png)   |   ![ss](/images/digital-identity-webnair-citi/David.png)
+[Gary Schneider](https://www.linkedin.com/in/gary-schneider-100b316/)   |   [Arvind Gupta](https://www.linkedin.com/in/argupta26/)  |   [Keit Pentus-Rosimannus](https://www.linkedin.com/in/keit-pentus-rosimannus-862610198/) |   [David Birch](- ![ss](/images/digital-identity-webnair-citi/Kiet.png))
+Managing Director at Citi   |   Data & Digital Economy, Platform Policy, New Media & Startups. DigitalIndia, WEF, OECD  |   Estonian MP; focus on Climate/New Technologies/Cyber    |   Author, board-level advisor and commentator on digital financial services, a recognised international thought leader, global keynote speaker and @Forbes contributor.
 
 ## Abstract
 
