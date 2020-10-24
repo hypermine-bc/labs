@@ -26,7 +26,7 @@ Note: I forgot the name of 4th panellist, all I can remember is, he was from Swe
 
 ## Abstract
 
-The webinar started with short presentations given by Arvind, Keit and Mr X on the implementation of digital identity in their respective countries. Once the presentations were over, David pitched in and given his point of view on digital identity, the way he sees things (his thoughts are also mentioned in his book, ["Identity is the new money"](http://www.dgwbirch.com/words/books/identity-is-the-new-money.html), do take a read). Finally, a few questions were asked to the panellists about their implementations of digital identity and problem they faced with them.
+The webinar started with short presentations given by Arvind, Keit and Mr X on the implementation of digital identity in their respective countries. Once the presentations were over, David pitched in and given his point of view on digital identity, the way he sees things (his thoughts are also mentioned in his book, ["Identity is the new money"](http://www.dgwbirch.com/words/books/identity-is-the-new-money.html), do take a read). Finally, a few questions were asked to panellists about their implementations of digital identity and problem they faced.
 
 
 ### Notes from presentations
@@ -41,9 +41,9 @@ One point which he mentioned, worth taking note, was:
 
 ### Keit's
 
-Keit talked about the ownership of identity being given to the end-user rather than any authority. She said, authorities can help to protect the identity data by keeping it safe but can not use it somewhere else without the _consent of the owner of identity_.This thought process was completely different than what we saw in case of Addhar system which is owned by Indian govrenment. She also mentioned two reasons for this thought process, one is, it will be too expensive to hold and control so much of data in one place and the other, it will be too risky to hold that since that data centre can become a honey pot of hackers.
+Keit talked about the ownership of identity being given to the end-user rather than any authority. She said, authorities can help to protect the identity data by keeping it safe but can not use it somewhere else without the _consent of the owner of identity_. This thought process was completely different than what we saw in case of Addhar system which is solely owned by the Indian government. She also mentioned two reasons for this thought process, one is, it will be too expensive to hold and control so much of data in one place and the other, it will be too risky to hold that since that data centre can become a honey pot of hackers.
 
-Keit further mentioned that how blockchain-based identity system is being used in Estonia for around more than 8 years now which is being used for various purposes from tax declaration to even logging an FIR.
+Keit further added that how blockchain-based identity system is being used in Estonia for around more than 8 years now which is being used for various purposes from tax declaration to even logging an FIR.
 
 > All individual should own their identity
 
@@ -59,13 +59,13 @@ Later on, he said that government is also concerned about the monopoly with _Ban
 
 David started making his point by saying that these all solutions share the similar goals like "reducing the cost of financial intermediation", "making citizen more secure", "providing a platform for product and services" and they all succeed to some extent. But the difference is, we want, 
 
-> to move away from the idea that people have _an_ identity which can be tracked and traced and monitored all time.
+> to move away from the idea that people have __an__ identity which can be tracked and traced and monitored all time.
 
 The idea that you have a handful of digital identities like the way you have multiple credit cards, is quite appealing. For example, if I go to the bank, I get different identity called, let's say, bank identity which may be based on govt identity.
 
-He also talked about three pillars we need to support transaction in healthy society **identity**, **money**, and **digital dilighancce**.
+He also talked about three pillars we need to support transaction in healthy society **identity**, **money**, and **digital diligance**.
 
-The way forwards, we need to look at more framework oriented identity infrastructure like trust framework or interoperability between identity infra and cryptography can be used to build those frameworks. 
+Way forward, we need to look at more framework oriented aproach like trust framework and cryptography can be used to build those frameworks, he added. 
 
 In the end, he asked one thought-provoking question:
 
