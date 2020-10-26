@@ -23,7 +23,7 @@ Managing Director at Citi | Data & Digital Economy, Platform Policy, New Media &
 
 ## Abstract
 
-The webinar started with short presentations given by Arvind, Keit and Mr X on the implementation of digital identity in their respective countries. Once the presentations were over, David pitched in and gave his point of view on digital identity, the way he sees things (his thoughts are also mentioned in his book, ["Identity is the new money"](http://www.dgwbirch.com/words/books/identity-is-the-new-money.html), do take a read). Finally, few questions were asked to panellists about their implementations of digital identity and the problems they faced.
+The webinar started with short presentations given by Arvind, Keit and Johan on the implementation of digital identity in their respective countries. Once the presentations were over, David pitched in and gave his point of view on digital identity, the way he sees things (his thoughts are also mentioned in his book, ["Identity is the new money"](http://www.dgwbirch.com/words/books/identity-is-the-new-money.html), do take a read). Finally, few questions were asked to panellists about their implementations of digital identity and the problems they faced.
 
 
 ### Notes from presentations
