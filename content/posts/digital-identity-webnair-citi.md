@@ -10,23 +10,20 @@ authors:
 
 # Introduction
 
-Yesterday, I got an opportunity to attend a webinar titles, __Digital Identity – Foundation for a New Economy__. I was super excited about this webinar since my area of interest is decentralised identity. I found the webinar very insightful and thought that it would be good if I can summaries the session in a blog post so that others (who could not attend) could get benefit of it. 
+Yesterday, I got an opportunity to attend a webinar titles, __Digital Identity – Foundation for a New Economy__. I was super excited about this webinar since my area of interest is decentralised identity. I found the webinar very insightful and thought that it would be good if I can summarize the session in a blog post so that others (who could not attend) can get benefit of it. 
  
 ## Panellist
 
 | **Host** | **Panellist 1** | **Panellist 2** | **Panellist 3** | **Panellist 4** |
 | :-: | :-: | :-: | :-: | :-: |
-![ss](/images/digital-identity-webnair-citi/Gary.png) | ![ss](/images/digital-identity-webnair-citi/Arvind.png) | ![ss](/images/digital-identity-webnair-citi/Keit.png) | ![ss](/images/digital-identity-webnair-citi/David.png) | Not Found |
-[Gary Schneider](https://www.linkedin.com/in/gary-schneider-100b316/) | [Arvind Gupta](https://www.linkedin.com/in/argupta26/) | [Keit Pentus-Rosimannus](https://www.linkedin.com/in/keit-pentus-rosimannus-862610198/) | [David Birch](https://www.linkedin.com/in/dgwbirch/) | Mr X |
-Managing Director at Citi | Data & Digital Economy, Platform Policy, New Media & Startups. DigitalIndia, WEF, OECD | Estonian MP; focus on Climate/New Technologies/Cyber | Author, board-level advisor and commentator on digital financial services | From Sweden |
-
-
-Note: I forgot the name of 4th panellist, all I can remember is, he was from Sweden, so I just named him Mr. X
+![ss](/images/digital-identity-webnair-citi/Gary.png) | ![ss](/images/digital-identity-webnair-citi/Arvind.png) | ![ss](/images/digital-identity-webnair-citi/Keit.png) | ![ss](/images/digital-identity-webnair-citi/David.png) | ![ss](/images/digital-identity-webnair-citi/Johan.png) |
+[Gary Schneider](https://www.linkedin.com/in/gary-schneider-100b316/) | [Arvind Gupta](https://www.linkedin.com/in/argupta26/) | [Keit Pentus-Rosimannus](https://www.linkedin.com/in/keit-pentus-rosimannus-862610198/) | [David Birch](https://www.linkedin.com/in/dgwbirch/) | [Johan Schmalholz](https://www.linkedin.com/in/johan-schmalholz-3b519a8/) |
+Managing Director at Citi | Data & Digital Economy, Platform Policy, New Media & Startups. DigitalIndia, WEF, OECD | Estonian MP; focus on Climate/New Technologies/Cyber | Author, board-level advisor and commentator on digital financial services | Advisor Payment Infrastructure / Senior Economist at Riksbank in Sweden |
 
 
 ## Abstract
 
-The webinar started with short presentations given by Arvind, Keit and Mr X on the implementation of digital identity in their respective countries. Once the presentations were over, David pitched in and given his point of view on digital identity, the way he sees things (his thoughts are also mentioned in his book, ["Identity is the new money"](http://www.dgwbirch.com/words/books/identity-is-the-new-money.html), do take a read). Finally, a few questions were asked to panellists about their implementations of digital identity and problem they faced.
+The webinar started with short presentations given by Arvind, Keit and Mr X on the implementation of digital identity in their respective countries. Once the presentations were over, David pitched in and gave his point of view on digital identity, the way he sees things (his thoughts are also mentioned in his book, ["Identity is the new money"](http://www.dgwbirch.com/words/books/identity-is-the-new-money.html), do take a read). Finally, few questions were asked to panellists about their implementations of digital identity and the problems they faced.
 
 
 ### Notes from presentations
@@ -47,9 +44,9 @@ Keit further added that how blockchain-based identity system is being used in Es
 
 > All individual should own their identity
 
-### Mr X
+### Johan's
 
-Mr X started his talk by agreeing with Keit, digital identity can not be held and controlled by one authority. He said people in Sweden trusts too much on government and hence it is government's responsibility to keep that trust safe. He mentioned how digital identity is being used in Sweden since 1949 and people are so used to it. Further, he also mentioned about _BankId_ which is the leading digital ID scheme in Sweden, used by 80% of the population. 
+Johan began his talk by agreeing with Keit, digital identity can not be held and controlled by one authority. He said people in Sweden trusts too much on government and hence it is government's responsibility to keep that trust safe. He mentioned how digital identity is being used in Sweden since 1949 and people are so used to it. Further, he also mentioned about _BankId_ which is the leading digital ID scheme in Sweden, used by 80% of the population. 
 
 Later on, he said that government is also concerned about the monopoly with _BankId_ because they feel that one dominating id is a bad solution. 
 
@@ -65,7 +62,7 @@ The idea that you have a handful of digital identities like the way you have mul
 
 He also talked about three pillars we need to support transaction in healthy society **identity**, **money**, and **digital diligance**.
 
-Way forward, we need to look at more framework oriented aproach like trust framework and cryptography can be used to build those frameworks, he added. 
+Way forward, we need to look at more framework oriented aproaches like trust framework and cryptography can be used to build those frameworks, he added. 
 
 In the end, he asked one thought-provoking question:
 
