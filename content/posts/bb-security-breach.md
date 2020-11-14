@@ -1,78 +1,131 @@
 ---
-title: "Securtiy breaches have become common in consumer facing applications"
+title: "Data breaches have become common in consumer-facing apps"
 date: 2020-11-02T18:20:11+05:30
-draft: true
+draft: false
 ---
 
-**Trust** is one of the major important factors for the growth of cosumer-facing application. Usually, the number of users of consumer-facing applications are compareively higher than employee-facing application. In case of employee-facing applicatoin the trust is kind of implicit - the moment a employee accept the offer letter, the trust gets 
+## Abstract
 
-Now the reason we started our story with trust and not the security becuase secutiry come next to trust. One you trust a system, you expect the system to be secure. Now this trust-and-security can make or break a system,specially for cosumer-facing application as the degree to trust if very high. Additionally, there cosumer-facing application also has to face compitions as end user has ability to swtich between these providers to avail same kind of service. 
+The consumer-facing applications are more vulnerable for data breaches as they have a large customer base and they usually stored the user data in a central location. The consumer-facing app provider often has to choose between security and usability and they end up giving priority to the later one as usability become important growth factor. That allows a hacker to steal user data. In this blog, we are going to talk about problems, challenges which service providers face, especially with respect to user data protection and privacy, and what could be possible ways to solve that problem. In the end, we will introduce to Hypersign and analyze how Hypersign can reduce the risk of data breaches.
 
-The cosumer-facing applications mostly have to store user personal data inorder to provide a service seamlessly. Now that brings a challenge and responsibiliyt to the provider that how do they store and mange the user's personal data. A few days back we have seen a major [security breach](https://timesofindia.indiatimes.com/business/india-business/bigbasket-faces-potential-data-breach-details-of-2-cr-users-put-on-sale-on-dark-web/articleshow/79115354.cms) in a consumer facing application called, BigBasket. We wanted to investigate because of two reasons, one we at hypermine works on these kind of probleme stateme and the other, even I am the user of BigBasket so I beleive my personal details (like addereess and phonenumer) have also got hacked. So now the hacker knows this info:
+## Introduction 
 
-> Vishwas, whose phone number is 1234 and email is XYZ@tempmail.com and whoes age is 27, buys fruites every week and is a resident of so and so city!
+Consumer-facing applications have comparatively more users than employee-facing application. In the consumer-facing application, trust becomes a very important factor in the growth as end-user always has choice/option to switch between providers. One of the important factor to gain the trust of a user is, data security. Providers mostly have to store user personal data to provide a seamless user experience as usability becomes equally important for the consumer-facing application. So, on the one hand, the providers has to deal with better security majors and on the other hand best user experience. The data set is huge for consumer-facing application and is stored centrally, these data set becomes honeypot for a hacker. That brings a challenge and responsibility for the provider that how do they store and manage the user's - personal data. 
 
-I will come back to statement in a bit. But before that what is case here:
+A few days back we have seen a major [security breach](https://timesofindia.indiatimes.com/business/india-business/bigbasket-faces-potential-data-breach-details-of-2-cr-users-put-on-sale-on-dark-web/articleshow/79115354.cms) in one of the consumer-facing application called, BigBasket - which is an application to buy grocery online. The grocery e-commerce platform has faced a potential data breach which could have leaked details of its around 2 crore users, according to cyber intelligence firm Cyble. The data include emailId, password hashes, contact numbers, addresses, dob, location, IP address etc.
 
+This is not the first hack of user data on the consumer-facing application. Previously, this year we have seen [Unacademy hack](https://www.theweek.in/news/sci-tech/2020/05/07/unacademy-hacked-data-of-20-mn-users-up-for-sale.html). Having said that, I believe it would be too early to give any judgment in case of Bigbast as the investigation still going on but certainly we have been seeing Indian companies ignoring user data protection and privacy to some extent. 
 
-## What had happened?
+We wanted to investigate (or rather understand) the problem because of two reasons, one we at Hypermine works on these kinds of problem statements and we understand the concerns of those users who care about their data and the other, even I am the user of BigBasket so I believe my details have also got hacked. So now the hacker knows:
 
-As reported by TOI:
+> Vishwas, a resident of Chennai whose phone number is 1234 and email is XYZ@examplemail.com and who is 27 years old, buys fruits every week!
 
-> grocery e-commerce platform Bigbasket has faced a potential data breach which could have leaked details of its around 2 crore users, according to cyber intelligence firm Cyble. 
+I will come back to a statement in a bit.
 
-> Cyble said that a hacker has put data allegedly belonging to to Bigbasket on sale for around Rs 30 lakh. Team at Cyble found the database of Big Basket for sale in a.
+## But why do they store data in the first place?
 
-> The leak contains a database portion; with the table name 'member_member'. The size of the SQL file is about 15B, containing close to 20 millions user_data.
+It is not that all providers are evil, they ask users to store their information so that a user can avail seamless user experience. End-user do not have to fill their information (say address) every time they shop. Furthermore, analytics can be performed on the data collected from the user. Providers do analytics to provide better or add on services to their customers. Moreover, data are also used for monitoring purposes so that in the event of any issue, the provider can investigate the issue to find the root cause and resolve it.
 
-> The data inclued, emailId, password hashes, contact numbers, addresses, dob, location, IP address etc.
-
-Now this is not the first hack of user data on consumer-facing applicatoin. Previously, this year we have seen [Unacademy hack](https://www.theweek.in/news/sci-tech/2020/05/07/unacademy-hacked-data-of-20-mn-users-up-for-sale.html here is what happened withh Unacademy in Jan 2020) as well as [twitter hack](). Althouh, it is not fair to compare Unacademy and twitter hack but in both cases user reputation and security is at risk. having said that, I believe it would be too early to give any judegment in case of Bigbast as the investigation still going on but certainly we have been seeing Indian companies ignoring user data prtotection and prviacy to some extent. 
-
-## What measures could have taken to prevent this?
-
-### Encryption 
-
-Now if we think about the solution, one simplest (but yet complex one) solution which comes into our mind is, encrypt all data you store. But there certainly a reson behind why do they not do that? One answer could be to provide seamless user experience to theri customers. Beucase UX is very important factor for the grwoth of the customer faceing app. Moreover, the cryptography can slow down the whole system drastically if not implement properly. 
-
-Additionally, the service providers do analytics on the app database to provide better user expereicen to their customer, now if the data is encrypted into the db, then the analytics systems need to know the key to decryte it before performing analytics. By the way there are possible way like, Homomorphic encription with which it is possible to perform basic analysics evne on encrypted data, but lets not bringg that into this blog. 
-
-Morve over, the data bases are also fuel for monitoring systems, so now the monitoring systems, need to know the key to decrypt the data. 
-
-### Why to store the data?
-
-One solutiion can be, why do provders even store the cirtical data in the first place? 
+![mg](/images/bb-security-breach/why-do-store.png)
 
 
-### Understading data set
+## Possible Solution
 
-It is very important to undersatn the data set properly in order to propsoe any solution like enryption. Becuase you might end up solving their one problem but create another. For example, instead of revealing this information to hacked (in case system got hacked):
+Now that we understand the problem statement and the reason why data is so important for providers to take from their customer, we can start thinking about how to solve the problem.
 
+For sake of understanding let me re-define  the problem statement
 
-> Vishwas, whose phone number is 1234 and email is XYZ@tempmail.com and whoes age is 27, buys fruites every week and is a resident of so and so city!
+> Providers have to store user personal data to provide better experience but at the same time personal data stored at centralised location becomes honeypot for hackers.
 
+If we try to think of solutions we have two options:
 
-If we end up revealing this:
+### Do not store any data at all!
 
-> A person, is an adult who buys fruites every week and is resident of India.
+This option does not seem to be very realistic one as we miss seamless UX. The end-user will have to enter his details every time he uses service. Moreover, the service provider (SP) won’t be able to perform analytics and monitoring as there is no data stored.
 
+### Encrypt all data!
 
-Look at the above two stateme very carefully and analysize what information does both of these messages reveals and which is more careful for user's privacy.
+Encrypting seems to be a better solution than the previous one but comes with a cost. Cryptography can slow down the system drastically, if not implemented properly. Analytics and Monitoring systems would then need the key to decrypt and perform operations - key management system needs to be implemented.
 
-### tradeoff between usuability and security
+---
 
+Both of these solutions seems to sit at extreme ends. We need to find a way somewhere in the middle to satisfy both worlds. We want to build a system where end-user should feel confident in using the system at the same time the provider should be able to perform all operations the way they were using earlier.
 
-Two major things is more or less equally important for consumer-facing applilciont.
-
-1. Seamless user experience
-2. high security for users personal information like, name, email, phonumer, ip, address adn credit card detials.
-
-Now for devleoper of application it is a tradeoff, they need to decide which is most priporty. Consumer-facing applicaiotn often tends towwards usability than security as the growth rate is very muchc depended on what user see, feel and expereicen witht he application. But on long run, they have to face challenges what Bigbasket is facing right now.  By the way, had it happened in Europe, the user data protoettchtion and privay law is so stricts that the company might have to deal with leagal consequences. 
-
+---
 
 ## Hypersign
 
-Hypersign is customer identity and access managment (CIAM) solution which provides security, 
+Hypersign is a privacy-preserving protocol to protect user data and mitigate risks of data breaches. The protocol built using latest technological stacks like advance **Public Key Cryptography** and **Blockchain** to provide secure, scalable and tamperproof solutions to the end-user as well as the service provider.
 
-- Built using Publick key cryptograpy and DLT, the Hypersign provides enough confidence to the serivce providers about their security of user data and also to the end user about their data on how and where they use it.
-- the solutioin is fexlible to fit into any kind of consumer facking applicaitons be it mobile app, or web app.
+Though the protocol works best with the decentralised environment, it can be also be deployed in a private setting easily in a centralised fashion. It helps:
+    
+
+![mg](/images/bb-security-breach/hs.png)
+
+
+The Hypersign works on the concept of **Issuance-verification paradigm** which can be fit into many different use cases. The Issuance verification paradigm works with three stakeholders:
+
+- **User**: Who has user data.
+- **Issuer**: The one who verifies user data and issues credentials based on user data.
+- **Verifier**: The one who verifies credentials, upon verification provides the service. 
+
+
+### Legacy system
+
+Let us understand how the current system works:
+
+In the current system, the issuance system (in red in the fig below) holds the responsibility of issuing, holding and verifying the credentials (Note the size of the red circle). Giving responsibility to ONE system is a bad design for two reasons: 
+
+- a) It causes scalability issue: The system can get flooded with a lot of verification requests which can cause the system to slow.
+- b) Become honeypot for hackers: Keeping all data at one place becomes honeypot for the hacker, that what could happen in BigBasket case.
+
+It may happen that the issuance and verification system can co-exist within the same organization. But this abstraction is made for clarity and scalability for consumer-facing application. 
+
+Although the user gets username and passwords as authentication credentials users do not hold his actual data not even if critical ones like credit card details, address, phone number etc. because of that user data is being shared from issuance system (in red) to the service provider (in blue) and not from the user.
+
+![mg](/images/bb-security-breach/legacy.png)
+
+### System with Hypersign
+
+Let us see how the Hypersign protocol works:
+
+The protocol __distributes responsibilities__ among all stakeholders (note the size of each item, they all have equal right and responsibility). User can give user data to the issuer which issuer can verify and issue a cryptographically signed document (called credential) to the user.
+The issuer does not necessarily have to store user data. In fact it can even act as a stateless server
+Optionally, can store data in encrypted form which can only to accessible to end-user. 
+  
+The user can now present this credential to the provider whenever required. The __data is now being shared in P2P__ fashion. The verifier can verify it cryptographically __without making a call to issuer__ by not flooding the issuance system with a lot of verification requests, hence scalable!
+
+![mg](/images/bb-security-breach/hs-protocol.png)
+
+### How does it help in data breaches?
+
+To understand that we first need to understand the types and characteristics of the dataset; which could be categorized into these: 
+
+![mg](/images/bb-security-breach/dataset.png)
+
+So now,
+
+The **end-user** shares *highly* or *moderately* critical *verified* data like credit card details, email, phone number directly using a user-agent (i.e. mobile device) with the service provider peer to peer. Hence no critical data is stored for the hack. At the same time, a user still gets the same or better user experience because the user need not to type these details every time they avail service. Furthermore, the user can share partial information instead of sharing all.
+
+
+On the other hand **service Providers** can store *least critical* data the way they were storing earlier but this time they will store these data with respect to specially design cryptographic identifier called DID. This DID do not reveals any information about a user. Can still use analytics and monitoring systems they way they were using earlier. A few critical data can also be stored but encrypted by a key which only user has access to. Further user can delegate the access if required.
+
+#### What if the data now gets hacked...
+
+So now instead of this information getting leaked:
+
+> Vishwas, a resident of Chennai whose phone number is 1234 and email is XYZ@examplemail.com and who is 27 years old, buys fruits every week!
+
+We end up leaking this:
+
+> A person, who is an adult, buys a product every week!
+
+As you can see, no critical information of end-users gets leaked hence they feel more trust and confident in using the system. The application-specific data like order list, product id and all might not be much of use for hackers.
+
+
+## Conclusion
+
+In the end, I have two points to make:
+
+- Providers must feel responsible for how they store and manage user data.
+- This calls for strong user data protection bill in India similar to what we have in Europe, the GDPR.
