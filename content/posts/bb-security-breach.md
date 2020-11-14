@@ -24,7 +24,7 @@ We wanted to investigate (or rather understand) the problem because of two reaso
 
 > Vishwas, a resident of Chennai whose phone number is 1234 and email is XYZ@examplemail.com and who is 27 years old, buys fruits every week!
 
-I will come back to a statement in a bit.
+I will come back to this statement in a bit.
 
 ## But why do they store data in the first place?
 
@@ -33,7 +33,7 @@ It is not that all providers are evil, they ask users to store their information
 ![mg](/images/bb-security-breach/why-do-store.png)
 
 
-## Possible Solution
+## Possible Solutions?
 
 Now that we understand the problem statement and the reason why data is so important for providers to take from their customer, we can start thinking about how to solve the problem.
 
