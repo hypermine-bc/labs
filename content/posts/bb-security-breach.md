@@ -30,7 +30,7 @@ I will come back to this statement in a bit.
 
 It is not that all providers are evil, they ask users to store their information so that a user can avail seamless user experience. End-user do not have to fill their information (say address) every time they shop. Furthermore, analytics can be performed on the data collected from the user. Providers do analytics to provide better or add on services to their customers. Moreover, data are also used for monitoring purposes so that in the event of any issue, the provider can investigate the issue to find the root cause and resolve it.
 
-![mg](/images/bb-security-breach/why-do-store.png)
+![mg](/images/bb-security-breach/why-do-store.png "Image credit: Google")
 
 
 ## Possible Solutions?
