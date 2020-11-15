@@ -85,7 +85,7 @@ In the current system, the issuance system (in red in the fig below) holds the r
 
 It may happen that the issuance and verification system can co-exist within the same organization. But this abstraction is made for clarity and scalability for consumer-facing application. 
 
-Although the user gets username and passwords as authentication credentials users do not hold his actual data not even if critical ones like credit card details, address, phone number etc. because of that user data is being shared from issuance system (in red) to the service provider (in blue) and not from the user.
+Although the user gets username and passwords as authentication credentials users do not hold his actual data not even the critical ones like credit card details, address, phone number etc. because of that user data is being shared from issuance system (in red) to the service provider (in blue) and not from the user, take a look at the figure below.
 
 ![mg](/images/bb-security-breach/legacy.png)
 
@@ -93,9 +93,7 @@ Although the user gets username and passwords as authentication credentials user
 
 Let us see how the Hypersign protocol works:
 
-The protocol __distributes responsibilities__ among all stakeholders (note the size of each item, they all have equal right and responsibility). User can give user data to the issuer which issuer can verify and issue a cryptographically signed document (called credential) to the user.
-The issuer does not necessarily have to store user data. In fact it can even act as a stateless server
-Optionally, can store data in encrypted form which can only to accessible to end-user. 
+The protocol __distributes responsibilities__ among all stakeholders (note the size of each item, they all have equal right and responsibility). User can give userdata to the issuer which issuer can verify and issue a cryptographically signed document (called credential) back to the user. The issuer does not necessarily have to store user data. In fact it even can act as a **simple stateless server**. Optionally, they can store data in encrypted form which can only to accessible to end-user. The end user will have ability to store this verifed credential locally (optionally on cloud) in a user agent (say mobile device) which only user has access to.
   
 The user can now present this credential to the provider whenever required. The __data is now being shared in P2P__ fashion. The verifier can verify it cryptographically __without making a call to issuer__ by not flooding the issuance system with a lot of verification requests, hence scalable!
 
@@ -103,7 +101,7 @@ The user can now present this credential to the provider whenever required. The 
 
 ### How does it help in data breaches?
 
-To understand that we first need to understand the types and characteristics of the dataset; which could be categorized into these: 
+To understand that, we first need to understand the types and characteristics of the dataset; which could be categorized into these: 
 
 ![mg](/images/bb-security-breach/dataset.png)
 
