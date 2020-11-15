@@ -61,13 +61,7 @@ Both of these solutions seems to sit at extreme ends. We need to find a way some
 
 Hypersign is a privacy-preserving protocol to protect user data and mitigate risks of data breaches. The protocol built using latest technological stacks like advance **Public Key Cryptography** and **Blockchain** to provide secure, scalable and tamperproof solutions to the end-user as well as the service provider.
 
-Though the protocol works best with the decentralised environment, it can be also be deployed in a private setting easily in a centralised fashion. It helps:
-    
-
-![mg](/images/bb-security-breach/hs.png)
-
-
-The Hypersign works on the concept of **Issuance-verification paradigm** which can be fit into many different use cases. The Issuance verification paradigm works with three stakeholders:
+Though the protocol works best with the decentralised environment, it can be also be deployed in a private setting easily in a centralised fashion. The Hypersign protocol works on the concept of **Issuance-verification paradigm** which can be fit into many different use cases. The Issuance verification paradigm works with three stakeholders:
 
 - **User**: Who has user data.
 - **Issuer**: The one who verifies user data and issues credentials based on user data.
@@ -126,6 +120,10 @@ As you can see, no critical information of end-users gets leaked hence they feel
 
 
 ## Conclusion
+
+Finally, you can see Hypersign protocol helps:
+    
+![mg](/images/bb-security-breach/hs.png)
 
 In the end, I have two points to make:
 
