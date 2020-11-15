@@ -1,5 +1,5 @@
 ---
-title: "Data breaches have become common in consumer-facing apps in India and How Hypersign can help"
+title: "Data breaches have become common in consumer-facing apps in India; How Hypersign can help"
 date: 2020-11-02T18:20:11+05:30
 draft: false
 categories: ["blockchain", "hypersign"]
