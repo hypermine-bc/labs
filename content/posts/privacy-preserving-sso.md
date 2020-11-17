@@ -1,5 +1,5 @@
 ---
-title: "Privacy Preserving Single Sign-On using Hypersign"
+title: "Privacy Preserving Social Login Using Hypersign"
 date: 2020-11-16T07:11:24+05:30
 draft: false
 categories: ["hypersign"]
