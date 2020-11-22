@@ -39,7 +39,7 @@ Hypersign implements [SSI specification](https://www.w3.org/TR/did-core/) and ha
 
 Let's try to understand the flow with a case study - *Flight Ticket Booking System*.
 
-> *Vishwas*, a frequent traveller of *XYZ Airline* which works under *Ministry of Civil Aviation*, requests a flight ticket for Chennai to Patna. Once the ticket is issued, he goes to the airport to presents his ticket (which other credentials like a passport or voter id etc.) to the security personal, *David*, at the security check. The security personal verifies the ticket and lets him enter into the boarding area.
+> A passenger - Vishwas, requests a flight ticket for Chennai to Patna from XYZ Airline company. Once the ticket is issued, he goes to the airport to presents his ticket (with other credentials like a passport or voter id etc.) to the security personal - David, at the security check. David verifies the ticket and lets him enter into the boarding area.
 
 In this case study we have the following actor:
 
