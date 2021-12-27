@@ -4,6 +4,7 @@ date: 2020-03-14T18:25:30+05:30
 draft: false
 categories: ["authentication", "blockchain"]
 tags: ["trust", "trustless", "fido", "authentication", "passwordless", "public-key-infrastructure", "cryptography"]
+banner: "/images/trustless-the-third-verticle/0_pgKTtVIMQaHATPob.png"
 authors:
   - vishwas
 ---

@@ -4,6 +4,7 @@ date: 2020-03-14T12:16:05+05:30
 draft: false
 categories: ["authentication"]
 tags: [biometric, fingerprints, "blockchain", "mobile"]
+banner: "/images/intro-to-biometric/bifurcation&termination.png" 
 authors:
   - vishwas
 ---

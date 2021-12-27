@@ -4,6 +4,7 @@ date: 2020-08-03T02:19:09+05:30
 draft: false
 categories: ["cryptography"]
 tags: [json-ld, "linked-data"]
+banner: "/images/intro-linked-data-signature/sample-doc.png"
 authors:
   - vishwas
 ---

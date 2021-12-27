@@ -4,6 +4,7 @@ date: 2020-11-02T18:20:11+05:30
 draft: false
 categories: ["blockchain", "hypersign"]
 tags: ["userdata", "privacy", "DID", "data-protection", "security"]
+banner: "/images/bb-security-breach/why-do-store.png"
 authors:
   - vishwas
 ---

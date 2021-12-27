@@ -35,6 +35,11 @@
                 <p>{{ partial "list/post-info.html" . }}</p>
                 {{ end }}
 
+                {{ if or .Params.banner }}
+                <p>{{ partial "list/banner.html" . }}</p>
+                {{ end }}
+
+
                 {{ if .Summary }}
                 <p>{{ .Summary }}</p>
                 {{ end }}

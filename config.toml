@@ -16,6 +16,7 @@ shareLinksEnabled = true
 author = "authors"
 tag = "tags"
 category = "categories"
+banner = "banner"
 
 # Add menu items to the navigation bar as below.
 # N.B. Use identifiers as the keys for translations.

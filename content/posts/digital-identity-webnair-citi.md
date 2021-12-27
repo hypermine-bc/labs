@@ -4,6 +4,7 @@ date: 2020-10-23T07:58:41+05:30
 draft: false
 categories: ["ssi", "blockchain", "hypersign"]
 tags: ["SSI", "digital identity", "DID", "citi", "hypersign"]
+banner: "/images/digital-identity-webnair-citi/panellist.png"
 authors:
   - vishwas
 ---

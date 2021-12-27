@@ -4,6 +4,7 @@ date: 2020-06-15T14:12:21+05:30
 draft: false
 categories: ["authentication", "sso"]
 tags: ["SSO","authentication", "SAML2.0", "Slack", "HyperSign"]
+banner: "/images/slack-hs/saml_tran.png"
 authors: 
   - gurung
 ---

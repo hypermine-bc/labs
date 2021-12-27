@@ -4,6 +4,7 @@ date: 2020-11-16T07:11:24+05:30
 draft: false
 categories: ["hypersign"]
 tags: ["SSO", "social-login", "SSI"]
+banner: "/images/privacy-preserving-sso/sso-arch.png"
 authors:
   - vishwas
 ---

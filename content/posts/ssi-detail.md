@@ -4,6 +4,7 @@ date: 2020-06-14T16:34:31+05:30
 draft: false
 categories: ["authentication", "blockchain"]
 tags: ["SSI", "digital identity", "DID", "authentication", "centralised", "federated", "user-centric"]
+banner: "/images/ssi-detail/Verifiable-credential-example.png"
 authors:
   [vishwas,likitha]
 ---

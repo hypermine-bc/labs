@@ -4,6 +4,7 @@ date: 2020-09-27T06:54:36+05:30
 draft: false
 categories: ["ssi", "blockchain"]
 tags: ["SSI", "digital identity", "DID", "authentication", "centralised", "federated", "blockchain", "user-centric"]
+banner: "/images/need-of-blockchain-ssi/issue-verification.png.png" 
 authors:
   - vishwas
 ---

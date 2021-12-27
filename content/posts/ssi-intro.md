@@ -4,6 +4,7 @@ date: 2020-04-19T18:25:30+05:30
 draft: false
 categories: ["authentication", "blockchain"]
 tags: ["SSI", "digital identity", "DID", "authentication", "centralised", "federated", "user-centric"]
+banner: "/images/ssi-intro/timeline.png"
 authors:
   [vishwas,likitha]
 ---

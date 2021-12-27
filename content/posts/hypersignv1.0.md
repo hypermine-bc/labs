@@ -4,6 +4,7 @@ date: 2020-10-02T09:13:43+05:30
 draft: false
 categories: ["ssi", "blockchain", "hypersign"]
 tags: ["SSI", "digital identity", "DID", "verifiable-credential", "verifiable-presenatation", "hypersign"]
+banner: "/images/hypersignv1.0/studio-dashboard.png"
 authors:
   - vishwas
 ---
