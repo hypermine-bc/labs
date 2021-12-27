@@ -1,0 +1,19 @@
+<div class="p-article-pagination">
+    {{ if .PrevInSection }}
+    <a class="p-article-pagination__link--previous" href="{{ .PrevInSection.Permalink }}">
+        <span class="p-article-pagination__label">{{ i18n "previous" | default "Previous" }}</span>
+        <span class="p-article-pagination__title">
+            {{ .PrevInSection.Title }}
+        </span>
+    </a>
+    {{ end }}
+
+    {{ if .NextInSection }}
+    <a class="p-article-pagination__link--next" href="{{ .NextInSection.Permalink }}">
+        <span class="p-article-pagination__label">{{ i18n "next" | default "Next" }}</span>
+        <span class="p-article-pagination__title">
+            {{ .NextInSection.Title }}
+        </span>
+    </a>
+    {{ end }}
+</div>

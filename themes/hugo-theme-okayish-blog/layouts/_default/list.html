@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+{{ partial "list/header.html" . }}
+
+{{ $pages := .RegularPages }}
+
+{{ if .IsHome }}
+
+{{ $pages =  where .Site.RegularPages "Type" "in" $.Site.Params.mainSections }}
+
+{{ else if eq .Kind "section" }}
+
+{{ $pages = slice }}
+
+{{ range .Site.RegularPages }}
+    {{ if $.IsAncestor . }}
+    {{ $pages = append . $pages}}
+    {{ end }}
+{{ end }}
+
+{{ end }}
+
+<div class="p-strip is-wrapper posts">
+    <div class="row">
+        {{ range (.Paginate $pages).Pages }}
+
+        {{ $hasPostInfo := or .Params.Date (or .Params.Authors .Params.Author) }}
+
+        <div class="col-6">
+            <div class="p-card">
+                <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+
+                {{/*  Check to see if it has post info. */}}
+                {{ if or .Params.Date (or .Params.Authors .Params.Author) }}
+                <p>{{ partial "list/post-info.html" . }}</p>
+                {{ end }}
+
+                {{ if .Summary }}
+                <p>{{ .Summary }}</p>
+                {{ end }}
+
+                {{ if .Params.tags }}
+                <p>{{ partial "list/tags.html" . }}</p>
+                {{ end }}
+
+                {{ if .Truncated }}
+                <p><a href="{{ .Permalink }}">{{ i18n "readMore" | default "Read more" }}</a></p>
+                {{ end }}
+            </div>
+        </div>
+        {{end}}
+    </div>
+</div>
+
+<div class="p-strip is-wrapper">
+    <div class="row">
+        {{ partial "list/pagination.html" . }}
+    </div>
+</div>
+
+{{ end }}

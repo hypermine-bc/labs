@@ -1,0 +1,11 @@
+<form class="p-search-box" action="https://www.google.com/search" target="_blank">
+    <input type="search" class="p-search-box__input" name="q" placeholder='{{ i18n "search" | default "Search" }}'
+        required="" aria-label="Query">
+    <input type="hidden" name="sitesearch" value="{{ $.Site.Home.Permalink }}">
+    <button type="reset" class="p-search-box__reset" alt="reset" aria-label="Reset">
+        <i class="p-icon--close"></i>
+    </button>
+    <button type="submit" class="p-search-box__button" alt="search" aria-label="Search">
+        <i class="p-icon--search"></i>
+    </button>
+</form>

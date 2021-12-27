@@ -1,0 +1,8 @@
+{{ partial "list/authors.html" . }}
+
+{{ if .Params.Date }}
+<span class="{{ if not (or .Params.Author .Params.Authors) }} u-capitalized {{ end }}">
+    {{ i18n "onDate" | default "on" }}
+</span>
+{{ .Date.Format "2006-01-02" }}
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main"}}
+<main class="p-strip is-deep page-banner">
+    <div class="row">
+        <h1>Bad day, huh?</h1>
+        <p>
+            Enjoy Gangnam Style and then start from the
+            <a href="{{ $.Site.Home.Permalink }}">homepage</a>.
+        </p>
+    </div>
+</main>
+<div class="p-strip is-shallow">
+    <div class="row">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9bZkp7q19f0?start=60"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,20 @@
+{{ if .Params.Author }}
+
+{{ if $.Site.Taxonomies.authors }}
+{{ errorf "[Unexpected Behaviour] Please use \"authors\" or remove \"author\" from the taxonomies." }}
+{{ end }}
+
+{{ i18n "byAuthor" | default "By" }}
+{{ partial "author-link.html" (dict "siteContext" $.Site "author" .Params.Author "isLast" true ) }}
+
+{{ else if .Params.Authors }}
+
+{{ $len := len .Params.Authors}}
+
+{{ i18n "byAuthor" | default "By" }}
+
+{{ range $i, $e := .Params.Authors }}
+{{ partial "author-link.html" (dict "siteContext" $.Site "author" $e "isLast" (eq $i (sub $len 1))) }}
+{{ end }}
+
+{{ end }}

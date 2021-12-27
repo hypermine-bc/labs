@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<div class="p-strip page-banner">
+    <div class="row">
+        <h1 class="u-capitalized">{{ i18n .Data.Plural | default .Data.Plural }}</h1>
+    </div>
+</div>
+
+<div class="p-strip is-shallow">
+    <div class="row">
+        <dl class="term-content">
+            {{ range (.Paginate .Pages.ByTitle ($.Site.Params.termsPaginate | default 10)).Pages }}
+            <dt><a href="{{ .Permalink }}">{{ .Title }}</a></dt>
+            {{ if .Content}}
+            <dd>{{ .Content }}</dd>
+            {{ end }}
+            {{ end }}
+        </dl>
+    </div>
+</div>
+
+<div class="p-strip is-wrapper">
+    <div class="row">
+        {{ partial "list/pagination.html" . }}
+    </div>
+</div>
+
+{{ end }}

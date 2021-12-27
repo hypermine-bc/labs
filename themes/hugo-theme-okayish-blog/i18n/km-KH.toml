@@ -1,0 +1,59 @@
+[jumpToMainContent]
+other = "ទៅកាន់មាតិកាសំខាន់"
+
+[search]
+other = "ស្វែងរក"
+
+[posts]
+other = "អត្ថបទ"
+
+[previous]
+other = "មុន"
+
+[next]
+other = "បន្ទាប់"
+
+# Terms
+
+[category]
+other = "ចំណែកថ្នាក់"
+
+[categories]
+other = "ចំណែកថ្នាក់"
+
+[tag]
+other = "Tag"
+
+[tags]
+other = "Tags"
+
+[author]
+other = "អ្នកនិពន្ធ"
+
+[authors]
+other = "អ្នកនិពន្ធ"
+
+# Post
+
+[byAuthor]
+other = "ដោយ"
+
+[onDate]
+other = "នៅថ្ងៃ"
+
+[translations]
+other = "មានជាភាសា៖"
+
+[readMore]
+other = "អានបន្ត"
+
+# Share
+
+[shareOnFacebook]
+other = "ចែករំលែកនៅលើ Facebook"
+
+[shareOnTwitter]
+other = "ចែករំលែកនៅលើ Twitter"
+
+[shareOnLinkedIn]
+other = "ចែករំលែកនៅលើ LinkedIn"

@@ -1,0 +1,10 @@
+<div class="u-inline">
+    <span>{{ i18n "translations" | default "Available in:" }}</span>&ensp;
+    <ul class="u-inline p-inline-list--middot">
+        {{ range .Translations }}
+        <li class="p-inline-list__item">
+            <a href="{{ .Permalink }}">{{ .Language.LanguageName | default .Language }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>

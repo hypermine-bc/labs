@@ -1,0 +1,59 @@
+[jumpToMainContent]
+other = "Jump to main content"
+
+[search]
+other = "Search"
+
+[posts]
+other = "Blog Posts"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+# Terms
+
+[category]
+other = "Category"
+
+[categories]
+other = "Categories"
+
+[tag]
+other = "Tag"
+
+[tags]
+other = "Tags"
+
+[author]
+other = "Author"
+
+[authors]
+other = "Authors"
+
+# Post
+
+[byAuthor]
+other = "By"
+
+[onDate]
+other = "on"
+
+[translations]
+other = "Available in:"
+
+[readMore]
+other = "Read more"
+
+# Share
+
+[shareOnFacebook]
+other = "Share on Facebook"
+
+[shareOnTwitter]
+other = "Share on Twitter"
+
+[shareOnLinkedIn]
+other = "Share on LinkedIn"

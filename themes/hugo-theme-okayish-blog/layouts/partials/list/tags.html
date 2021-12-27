@@ -1,0 +1,5 @@
+{{ range .Params.tags }}
+<a class="p-link--hashtag" href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+    #{{- . -}}
+</a>&ensp;
+{{ end }}

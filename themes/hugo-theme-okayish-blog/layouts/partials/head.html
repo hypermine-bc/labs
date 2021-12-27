@@ -1,0 +1,15 @@
+<head>
+    {{ partial "meta.html" . }}
+    
+    {{ with .OutputFormats.Get "RSS" }}
+    <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{ end }}
+    
+    {{ with .OutputFormats.Get "json" }}
+    <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
+    {{ end }}
+    
+    <link rel="stylesheet" href='{{ "css/style.css" | absURL }}'>
+
+    {{ partial "head-extension.html" . }}
+</head>

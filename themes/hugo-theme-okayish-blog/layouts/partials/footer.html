@@ -1,0 +1,15 @@
+<footer class="p-strip is-shallow page-footer">
+    <div class="row">
+        <div class="col-12  u-align--center">
+            <p>
+                {{ $.Site.Copyright | default (delimit (slice "©" (now.Format "2006") $.Site.Title) " ") }}
+            </p>
+        </div>
+    </div>
+</footer>
+
+{{ if and $.Site.GoogleAnalytics (or ($.Site.Params.gaLocalEnabled | default false) (not $.Site.IsServer)) }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+
+{{ partial "footer-extension.html" . }}
