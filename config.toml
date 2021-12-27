@@ -7,7 +7,7 @@ copyright = "© Hypermine 2021"
 [params]
 # These will be used for OpenGraph, Twitter Card and Schema.org
 description = "Brewing technology!"
-keywords = ["identity", "blockchain", "security", "hypermine", "cryptography" "ssi", "security", "data-privacy", "privacy", "data-protection"]
+keywords = ["identity", "blockchain", "security", "hypermine", "cryptography" "ssi", "security", "dataprivacy", "privacy", "dataprotection"]
 #images = ["/images/banner.png"]
 # Enable/disable share links (Facebook, Twitter and LinkedIn)
 shareLinksEnabled = true
