@@ -2,12 +2,12 @@ baseURL = "https://hypermineresearch.netlify.com/"
 languageCode = "en-us"
 title = "Hypermine Labs"
 theme = "hugo-theme-okayish-blog"
-copyright = "© Hypermine 2020"
+copyright = "© Hypermine 2021"
 
 [params]
 # These will be used for OpenGraph, Twitter Card and Schema.org
 description = "Brewing technology!"
-keywords = ["identity", "blockchain", "security", "hypermine", "cryptography"]
+keywords = ["identity", "blockchain", "security", "hypermine", "cryptography" "ssi", "security", "data-privacy", "privacy", "data-protection"]
 #images = ["/images/banner.png"]
 # Enable/disable share links (Facebook, Twitter and LinkedIn)
 shareLinksEnabled = true
@@ -38,12 +38,20 @@ url = "/authors"
 
 [[menu.main]]
 identifier = "repo"
-name = "Want to contribute?"
+name = "Contribute?"
 url = "https://github.com/hypermine-bc/labs"
 
 
 [[menu.main]]
-identifier = "hypermine"
-name = "Hypermine.in"
-url = "https://www.hypermine.in/"
+identifier = "hyperfyre"
+name = "Hyperfyre"
+url = "https://fyre.hypersign.id/"
+
+
+[[menu.main]]
+identifier = "hypersign"
+name = "Hypersign"
+url = "https://hypersign.id/"
+
+
 

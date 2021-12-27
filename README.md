@@ -14,8 +14,8 @@ Hypermine labs is part of [Hypermine organization](https://www.hypermine.in/) wh
 **Clone repo**
 
 ```
-git clone https://github.com/hypermine-bc/blogs
-git submodule update
+git clone https://github.com/hypermine-bc/labs
+git submodule update --init --recursive
 ```
 
 **Adding a new post** 
