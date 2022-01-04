@@ -9,8 +9,11 @@ authors:
   [lovely,raj]
 ---
 
+![banner](/images/auto-test-using-testproj/background-img-slider.jpg)
+Image Credit: https://1point21gws.com
 
 
+## Introduction
 
 We all know why testing is an important part of software development life cycle, especially in agile environment, where release cycle time is shorter - you do continuous build-test-release every week or two. When it come to startups, its even more challenging since startups work on "fail-fast" approach which usually has resource crunch and grows exponentially (at least in the initial phases). You don't even realize how soon the product gains 10k users from 1. When the project is small with less number of users, its wise to do manual testing (I may be wrong but that's what worked for us) and not spend too much time in writing code for automation tests because of following reasons   : 
 
@@ -163,3 +166,8 @@ Here is a working demo of automation testing of one of our application, [HyperFy
 ## Conclusion
 
 The TestProject is a great tool for beginners to dive into the realm of automation testing. It has very less learning curve - saving a lot of testing time. I hope this blog was useful for anyone to get started with TestProject. More about TestProject in the next the blog post where we will understand how TestProject works under the hood, until then, Happy Testing!
+
+
+
+
+
