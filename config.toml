@@ -1,8 +1,8 @@
 baseURL = "https://hypermineresearch.netlify.com/"
 languageCode = "en-us"
-title = "Hypermine Labs"
+title = "Hypersign Labs"
 theme = "hugo-theme-okayish-blog"
-copyright = "© Hypermine 2021"
+copyright = "© Hypersign 2021"
 
 [params]
 # These will be used for OpenGraph, Twitter Card and Schema.org
@@ -40,7 +40,7 @@ url = "/authors"
 [[menu.main]]
 identifier = "repo"
 name = "Contribute?"
-url = "https://github.com/hypermine-bc/labs"
+url = "https://github.com/hypersign-protocol/labs"
 
 
 [[menu.main]]

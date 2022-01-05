@@ -2,23 +2,18 @@
 title: "Introduction to Inter-Blockchain Communication (IBC) Protocol"
 date: 2022-01-04T12:30:05+05:30
 draft: false
-categories: ["crosschain"]
-tags: ["blockchain", "did"]
+categories: ["crosschain", "blockchain"]
+tags: ["blockchain", "did", "cosmos", "HID", "hypersign"]
 banner: "/images/ibc-blog/ibc-cosmos.svg"
 authors:
   - arnab
 ---
 
-At Hypersign, we are working towards building our network and researching about some of the popular networks to choose from. The Networks are : -
+At Hypersign, we are working towards building our network and researching about some of the popular frameworks to choose from. Cosmos and Polygon are top on our list. A quick bite about the Hypersign Network before we move on: 
 
-1. Cosmos
-2. Polygon
+> **Hypersign Identity Network** - A simple, secure and affordable blockchain network for managing digital identity and access rights without compromising on security and privacy. The network also incorporates privacy subchains and interoperability between them. 
 
-There are many factors that needs to be considered before going ahead with a network. One such factor is interoperability of DID between different blockchains. But why?
-
-Imagine a blockchain with no interoperability which issues DID to the user. It would be easy for user to verify the credentials on the same chain. Now, there arises a situation where a user wants to verify the same credentials on a different chain. This is what we want to seek with enabling interoperability such that cross-chain credentials issuance and verification would be sustainable.
-
-So, in this blog we will be looking at the IBC protocol and also perform a token transfer between two IBC enabled blockchains.
+There are many factors that needs to be considered before going ahead with a network. One such factor is **interoperability**. Since the core concept that we are going to use in this network is [Self Sovereign Identity (SSI)](https://en.wikipedia.org/wiki/Self-sovereign_identity),  where a user can issue an identifier called **decentralised identifier** (DID) to himself, interoperability of DID between different blockchains becomes important factor for adoption of that network. What we essentially want is, a DID issued on one subchain, should be able to get resolved on the other. I will write a seperate blog post about Hypersign Identity Network some time later, but in this blog post let's explore **IBC protocol** to understand how a token from one network can be transferd to another network (also called zones) in Cosmos ecosystem. 
 
 ## What is IBC?
 
