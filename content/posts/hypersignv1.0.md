@@ -21,7 +21,7 @@ Self-sovereign identity intent to give control of user data back to the user by 
 
 One of the problem which SSI solves is, *It gives ability to all participants to authenticate each other and to the verifier to verify the data independently - without making a call to the issuer. The issuer does not have to be online at the time of verification!*
 
-To understand the concept of SSI in-detail, I encourage you to read [this](https://hypermineresearch.netlify.app/posts/ssi-detail/) blog before proceeding. To understand why Blockchain plays a major role in SSI infrastructure, please read [this](https://hypermineresearch.netlify.app/posts/need-of-blockchain-ssi/) blog. 
+To understand the concept of SSI in-detail, I encourage you to read [this](https://labs.hypersign.id/posts/ssi-detail/) blog before proceeding. To understand why Blockchain plays a major role in SSI infrastructure, please read [this](https://labs.hypersign.id/posts/need-of-blockchain-ssi/) blog. 
 
 ## Hypersign
 
@@ -187,7 +187,7 @@ Watch the live demo on YouTube;
 - [Hypersign Identity Explorer](https://ssi.hypermine.in/explorer)
 - [Github Repository](https://github.com/hypersign-protocol)
 - If you are a developer, join our [telegram](https://t.me/joinchat/F9rRLg9yiWqcmsjyEQeUpw) group.
-- For a more technical blogs on identity and SSI, please visit our [Lab's website](https://hypermineresearch.netlify.app/)
+- For a more technical blogs on identity and SSI, please visit our [Lab's website](https://labs.hypersign.id/)
 - Follow us on [twitter](https://twitter.com/hypersignchain) to get the latest updates of this project.
 - For business-related queries, kindly mail us at `connect@hypermine.in`
 - [Hypersign Website](https://hypermine.in/hypersign/)

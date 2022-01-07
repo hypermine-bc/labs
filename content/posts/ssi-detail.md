@@ -9,7 +9,7 @@ authors:
   [vishwas,likitha]
 ---
 
-In our [previous](https://hypermineresearch.netlify.app/posts/ssi-intro/) blog titles - Digital Identity: Past, Present and Future, we went through the journey of digital identity and tried understanding how it evolved over the period and where it is heading. We ended our discussion with the basic introduction of Self Sovereign Identity (SSI) system. If you have not read that blog, I encourage you to read that first before proceeding with this blog. In this blog, we will take a deeper dive into SSI and will try understanding how it works under the hood. We will also try to find out how SSI systems can be implemented, its components and the architecture.
+In our [previous](https://labs.hypersign.id/posts/ssi-intro/) blog titles - Digital Identity: Past, Present and Future, we went through the journey of digital identity and tried understanding how it evolved over the period and where it is heading. We ended our discussion with the basic introduction of Self Sovereign Identity (SSI) system. If you have not read that blog, I encourage you to read that first before proceeding with this blog. In this blog, we will take a deeper dive into SSI and will try understanding how it works under the hood. We will also try to find out how SSI systems can be implemented, its components and the architecture.
 
 ![ssidifference](/images/ssi-detail/curr-vs-trad-model.png)
 
