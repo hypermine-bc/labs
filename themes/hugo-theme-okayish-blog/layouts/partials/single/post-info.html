@@ -7,25 +7,25 @@
 
     {{ if $hasAuthorInfo }}
 
-    {{ $avatarUrl := "images/icon-user--single.png"}}
+        {{ $avatarUrl := "images/icon-user--single.png"}}
 
-    {{ with .Params.Authors }}
+        {{ with .Params.Authors }}
 
-    {{ if gt (len .) 1 }} {{/* For multi-author posts */}}
+        {{ if gt (len .) 1 }} {{/* For multi-author posts */}}
 
-    {{ $avatarUrl = "images/icon-user--multi.png"}}
+                {{ $avatarUrl = "images/icon-user--multi.png"}}
 
-    {{ else }}
+                {{ else }}
 
-    {{ with $.Site.GetPage (printf "/%s/%s" "authors" ((index . 0) | urlize)) }}
-    {{ $avatarUrl = (.Params.AvatarUrl | default $avatarUrl) }}
-    {{ end }}
+                    {{ with $.Site.GetPage (printf "/%s/%s" "authors" ((index . 0) | urlize)) }}
+                    {{ $avatarUrl = (.Params.AvatarUrl | default $avatarUrl) }}
+                    {{ end }}
+                    
+                    {{ end }}
+                    
+                    {{ end }}
 
-    {{ end }}
-
-    {{ end }}
-
-    <img src='{{ $avatarUrl | absURL }}' alt="Author's Avatar" class="p-media-object__image is-round">
+                    <img src='{{ $avatarUrl | absURL }}' alt="Author's Avatar" class="p-media-object__image is-round">
 
     {{ end }}
 

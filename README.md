@@ -53,6 +53,8 @@ Once pushed, go to repository and give pull request.
     - If your name consist of two words, make folder name `word1-word2` format
 - Create a file called `_index.md` inside that directory
 - Modify the following template and paste into `_index.md` file.
+- Also add your avatar in the same folder
+- You can add `title`: `<YOUR_NAME_ALIAS>` and `AvatarUrl`: `/authors/<YOUR_NAME_ALIAS>/<YOUR_NAME_ALIAS>.png"` fields.
 
 ```
 ---
