@@ -4,7 +4,7 @@ date: 2022-01-07T13:16:59+05:30
 draft: false
 categories: ["ssi", "blockchain"]
 tags: ["SSI", "digital identity", "blockchain", "metaverse" ]
-banner: "/images/metaverse-and-did/metaverse-#1.jpg" 
+banner: "/images/metaverse-and-did/metaverse1.jpg" 
 authors:
   - vishwas
 ---
