@@ -1,5 +1,5 @@
 ---
-title: "Using Decentralised Identity In Metaverse"
+title: "Avatars Can Use SSI In Metaverse To Prove Identity"
 date: 2022-01-07T13:16:59+05:30
 draft: false
 categories: ["ssi", "blockchain"]
@@ -60,7 +60,6 @@ The problem with passwords is, they can be shared. For example, if you share you
 **On the Internet, nobody knows you're a dog!**
 
 ![img](https://upload.wikimedia.org/wikipedia/en/f/f8/Internet_dog.jpg)
-
 
 
 I hope you got the point. So what is the right way to prove identity online? 
