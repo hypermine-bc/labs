@@ -1,5 +1,5 @@
 ---
-title: "Avatars Can Use SSI In Metaverse To Prove Identity"
+title: "Avatars May Use SSI In Metaverse To Prove Identity"
 date: 2022-01-07T13:16:59+05:30
 draft: false
 categories: ["ssi", "blockchain"]
@@ -72,7 +72,7 @@ One of the ways to prove identity could be using biometric authentication. Where
 
 **Device authentication**
 
-Another way to possibly solve this problem is, using device binding. Meaning, your device can produce a digital signature (exactly the way we sign using pen on paper in the real world) to the verifier (website) and the verifier can verify that signature and give access to the registered device. The reason this is better than approach than pure password is that difficulty in sharing the device with someone else. And one can not also make copies of the device as opposed to passwords which not only can be shared but also can be shared with multiple people at the same time. 
+Another way to possibly solve this problem is, using device binding. Meaning, your device can produce a digital signature (exactly the way we sign using pen on paper in the real world) to the verifier (website) and the verifier can verify that signature and give access to the registered device. The reason this is a better approach than pure password is that difficulty in sharing the device with someone else. And one can not also make copies of the device as opposed to passwords which not only can be shared but also can be shared with multiple people at the same time. 
 
 So in this case, the verifier does not verify the user's identity, rather it verifies the user's device and gives access to it. Now the next question is how can a device produce a signature? 
 
@@ -86,9 +86,9 @@ In the device authentication flow, the device can store a private key somewhere 
 
 ## How does the verifier get the public key? 
 
-One way could be, the device can share the public key along with the digital signature at the time of authentication.  But in that case, if an attacker is listening to the call, he can simply replace the digital signature and the public key and hence possibly impersonate the system. This
+One way could be, the device can share the public key along with the digital signature at the time of authentication.  But in that case, if an attacker is listening to the call, he can simply replace the digital signature and the public key and hence possibly impersonate the system.
 
-The other way could be, the verifier fetches the public key from any common database where the device would have stored his public key. This solution is perfectly fine as long as both parties trust the database provider. But when it comes to a decentralised ecosystem, the key is not to trust any central authority. Because what if the central authority changes the public key in the system or simply refuse to sever the fetch request done by the verifier? 
+The other way could be, the verifier fetches the public key from any common database where the device would have stored his public key. This solution is perfectly fine as long as both parties trust the database provider. But when it comes to a decentralised ecosystem, the key is not to trust any central authority. Because what if the central authority changes the public key in the system or simply refuse to respond to the fetch request done by the verifier? 
 
 ## Blockchain came into the picture
 
