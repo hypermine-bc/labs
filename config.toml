@@ -4,6 +4,8 @@ title = "Hypersign Labs"
 theme = "hugo-theme-okayish-blog"
 copyright = "© Hypersign 2021"
 
+googleAnalytics = "G-6W9JY4GNY0"
+
 [params]
 # These will be used for OpenGraph, Twitter Card and Schema.org
 description = "Brewing technology!"
