@@ -9,10 +9,10 @@ authors:
   - vishwas
 ---
 
-<figure>
-    <img src="/images/metaverse-and-did/metaverse1.jpg" alt="Trulli" style="width:100%">
-    <figcaption align = "center"><b>Image Credit: https://www.verizon.com</b></figcaption>
-</figure>
+
+![img](/images/metaverse-and-did/metaverse1.jpg)
+
+Image Credit: https://www.verizon.com 
 
 ## Introduction
 
@@ -57,10 +57,10 @@ With the invention of the World Wide Web (WWW), it became a commonplace of inter
 The problem with passwords is, they can be shared. For example, if you share your password with me, then I should be able to prove to the system that I am you. But if you look at the real or physical world I can not take away your identity no matter what (or at least in most cases). The same rationale applies to sharing your OTP or authentication link which came in your email. This reminds me of a famous cartoon published by  Peter Steiner in 1993: 
 
 
-<figure>
-    <img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Internet_dog.jpg" alt="Trulli">
-    <figcaption ><b>On the Internet, nobody knows you're a dog!</b></figcaption>
-</figure>
+**On the Internet, nobody knows you're a dog!**
+
+![img](https://upload.wikimedia.org/wikipedia/en/f/f8/Internet_dog.jpg)
+
 
 
 I hope you got the point. So what is the right way to prove identity online? 
