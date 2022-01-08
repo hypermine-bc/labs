@@ -38,9 +38,9 @@ Say, I and you decided to meet at the football match, I saw you and you saw me, 
 
 Now imagine the above interaction in an application on the internet without having to physically go to the match. 
 
-You might be wondering what's specific about this? Aren't we use applications like Google Meet, Zoom or other chat apps to interact virtually?
+You might be wondering what's special about this? Aren't we using applications like Google Meet, Zoom or other chat apps to interact virtually?
 
-Well, true that. But in the case of those platforms, we do not get to see each other in 3D. It's like we are just talking to some image. We can not touch and feel each other, the way we can do in the real world. Furthermore, we can not see/experience the space where we both are in those apps. 
+Well, true that. But in case of those platforms, we do not get to see each other in 3D. It's like we are just talking to some image. We can not touch or feel each other, the way we can do in the real world. Furthermore, we can not see/experience the space where we both are in those apps. 
 
 I hope you get the point, I am trying to say here. Metaverse aims to give a platform where people can not just able to interact but also share the space and experience it. They can shop from a shopping mall, they can play, they can watch movies and so on exactly like the way they would do in the physical world. Imagine you enter into Amazon store and get to hold the product in your hand and then decide to buy and all of that happens without you having to physically go to any store, right from your laptop. 
 
@@ -64,7 +64,7 @@ The problem with passwords is, they can be shared. For example, if you share you
 
 I hope you got the point. So what is the right way to prove identity online? 
 
-## So how do we identify ourselves internet?
+## So How Do We Identify Ourselves On The Internet?
 
 **Biometric**
 
