@@ -1,5 +1,5 @@
 ---
-title: "Metaverse and Decentralised Identity"
+title: "Using Decentralised Identity In Metaverse"
 date: 2022-01-07T13:16:59+05:30
 draft: false
 categories: ["ssi", "blockchain"]
@@ -9,9 +9,10 @@ authors:
   - vishwas
 ---
 
-| ![space-1.jpg](images/metaverse-and-did/metaverse-#1.jpg) ||:--:|| Image Credits - https://www.verizon.com |
-
-
+<figure>
+    <img src="/images/metaverse-and-did/metaverse1.jpg" alt="Trulli" style="width:100%">
+    <figcaption align = "center"><b>Image Credit: https://www.verizon.com</b></figcaption>
+</figure>
 
 ## Introduction
 
